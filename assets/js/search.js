@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var autocomplete_list = $('.form-autocomplete ul.menu');
     var data = JSON.parse(localStorage.getItem('logotyp.data')) || [];
 
-    if (!data.length || ((new Date() - parseInt(localStorage.getItem('logotyp.time'))) / 1000 > 3 )) {
+    if (!data.length || ((new Date() - parseInt(localStorage.getItem('logotyp.time'))) / 1000 > 3)) {
         get('/data.html', function(d) {
             data = JSON.parse(d);
             localStorage.setItem('logotyp.data', d)
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var html = [];
 
         for (i in data) {
-            if (data[i].toLowerCase().indexOf(e.target.value) >= 0) {
+            if (data[i].toLowerCase().indexOf(e.target.value.toLowerCase()) >= 0) {
                 html.push('<li class="menu-item" content="' + data[i].split('.')[0] + '" image="' + data[i] + '">' +
                     '<a href="#">' +
                     '<div class="chip">' +
