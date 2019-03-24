@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 1.5rem;
+    }
+
+    .logos .card-image img {
+        max-height: 12rem;
+    }
+
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .navbar {
+        padding: 1.5rem 2rem;
+    }
+
+    .navbar.inner {
+        background: #4452c0;
+        background: linear-gradient(45deg, #4452c0 0%, #3b49af 100%);
+        background: -moz-linear-gradient(45deg, #4452c0 0%, #3b49af 100%);
+        background: -webkit-linear-gradient(45deg, #4452c0 0%, #3b49af 100%);
+        background: linear-gradient(45deg, #4452c0 0%, #3b49af 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#4452c0', endColorstr='#3b49af', GradientType=1);
+    }
+
+    #logo {
+        margin-top: 2rem;
+    }
+
+    #logo .h1 {
+        font-size: 2.5em;
+        line-height: 1.2em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        line-height: 1;
+    }
+
+    #logo .logo-image {
+        height: 20rem;
+    }
+
+    #logo .h3,
+    .results h {
+        margin: 2rem 0 1rem;
+    }
+
+    #logo .h3,
+    .results h {
+        margin: 1rem 0 1rem;
+    }
+
+    h4,
+    .h4 {
+        margin-top: 3rem;
+    }
+}
