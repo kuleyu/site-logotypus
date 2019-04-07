@@ -14,9 +14,6 @@ function get(url, callback) {
     request.send();
 }
 
-var selectedItem = 0;
-
-
 document.addEventListener("DOMContentLoaded", function() {
     var autocomplete_list = $('.form-autocomplete ul.menu');
     var data = JSON.parse(localStorage.getItem('logotyp.data')) || [];
@@ -33,11 +30,10 @@ document.addEventListener("DOMContentLoaded", function() {
         document.location.href = '/logo/' + item.getAttribute('content').toLowerCase();
     }
 
-
     var handler = function(e) {
 
         if ('keyCode' in e && e.keyCode == 13) {
-            goto_menu_item($('ul#autocomplete li.menu-item-selected'));
+            goto_menu_item($('ul#autocomplete li'));
             return
         }
 
@@ -69,41 +65,12 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
 
-        var deselectAll = function (items) {
-            items.forEach(item => item.classList.remove('menu-item-selected'));
-            if (selectedItem >= 0 && selectedItem < items.length) {
-                items[selectedItem].classList.add('menu-item-selected');
-            }
-        }
-
         if (!html.length) {
             $('#autocomplete').style.display = "none";
         } else {
             autocomplete_list.innerHTML = html.join('\n');
-            var items = document.querySelectorAll('ul#autocomplete li');
-
-            //if arrow up
-            if ('keyCode' in e && e.keyCode == 38) {
-                if (selectedItem <= 0) {
-                    selectedItem = items.length - 1;
-                } else {
-                    selectedItem -= 1;
-                }
-            }
-            //key down
-            if ('keyCode' in e && e.keyCode == 40) {
-                if (selectedItem >= items.length - 1) {
-                    selectedItem = 0;
-                } else {
-                    selectedItem += 1;
-                }
-            }
-            //deselect everyone
-            deselectAll(items);
         }
-
         return false;
-
 
     }
 

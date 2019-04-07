@@ -266,10 +266,13 @@ a {
 #autocomplete .menu-item {
   padding: 0.2rem 1.4rem;
   font-size: 1.5rem;
+  border: 1px solid #fff;
 }
 
-#autocomplete .menu-item:hover {
-  background: #f4fce3;
+#autocomplete .menu-item:hover,
+#autocomplete .menu-item-selected {
+  background: #82c91e56;
+  border-color: #82c91e;
 }
 
 #autocomplete .toast {
