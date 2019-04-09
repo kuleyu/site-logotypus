@@ -262,17 +262,33 @@ a {
 #autocomplete {
   box-shadow: 0 0.2rem 0.4rem rgba(87, 100, 198, 0.2);
 }
-
-#autocomplete .menu-item {
-  padding: 0.2rem 1.4rem;
-  font-size: 1.5rem;
-  border: 1px solid #fff;
+.menu .menu-item,
+#autocomplete .menu .menu-item {
+  padding: 0;
+  margin: 0;
 }
 
-#autocomplete .menu-item:hover,
-#autocomplete .menu-item-selected {
-  background: #82c91e56;
-  border-color: #82c91e;
+#autocomplete li.menu-item a {
+  padding: 0.2rem 0.2rem 0.2rem 1.4rem;
+  font-size: 1.5rem;
+  border: 1px solid #fff;
+  margin: 0 0 0.5rem 0;
+}
+
+#autocomplete li.menu-item:last-child a {
+  margin-bottom: 0;
+}
+
+#autocomplete .menu-item:hover a,
+#autocomplete .menu-item-selected a,
+#autocomplete .menu-item a:focus {
+  background: #cceba156;
+  border: 1px solid #82c91e;
+}
+
+:focus {
+  border-color: #4452c0;
+  outline: 2px dotted #4452c0;
 }
 
 #autocomplete .toast {
