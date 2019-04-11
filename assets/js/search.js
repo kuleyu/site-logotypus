@@ -71,7 +71,9 @@ document.addEventListener('DOMContentLoaded', function() {
             '" image="' +
             data[i] +
             '">' +
-            '<a href="#">' +
+            '<a href="/logo/' +
+            data[i].toLowerCase() +
+            '/" >' +
             '<div class="chip">' +
             '<div class="chip-content">' +
             data[i].replace(/-/g, ' ') +
