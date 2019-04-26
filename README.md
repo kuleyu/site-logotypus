@@ -1,2 +1,0 @@
-# logotypus
-logotyp.us
