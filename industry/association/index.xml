@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>association on Logotyp.us</title>
+    <link>https://logotyp.us/industry/association/</link>
+    <description>Recent content in association on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2019 00:27:27 -0400</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/industry/association/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>American Association of Bioanalysists</title>
+      <link>https://logotyp.us/logo/american-association-of-bioanalysists/</link>
+      <pubDate>Thu, 25 Apr 2019 00:27:27 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/american-association-of-bioanalysists/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food on Logotyp.us</title>
+    <link>https://logotyp.us/industry/food/</link>
+    <description>Recent content in Food on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2019 01:45:19 -0400</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/industry/food/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Diet Coke</title>
+      <link>https://logotyp.us/logo/diet-coke/</link>
+      <pubDate>Thu, 25 Apr 2019 01:45:19 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/diet-coke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coca Cola</title>
+      <link>https://logotyp.us/logo/coca-cola/</link>
+      <pubDate>Thu, 25 Apr 2019 01:45:02 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/coca-cola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coca Cola Light</title>
+      <link>https://logotyp.us/logo/coca-cola-light/</link>
+      <pubDate>Thu, 25 Apr 2019 01:44:51 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/coca-cola-light/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coca Cola Life</title>
+      <link>https://logotyp.us/logo/coca-cola-life/</link>
+      <pubDate>Thu, 25 Apr 2019 01:44:42 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/coca-cola-life/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

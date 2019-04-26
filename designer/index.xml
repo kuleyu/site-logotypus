@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Designer on Logotyp.us</title>
+    <link>https://logotyp.us/designer/</link>
+    <description>Recent content in Designer on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2019 00:21:27 -0400</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/designer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Michael Cronan</title>
+      <link>https://logotyp.us/designer/michael-cronan/</link>
+      <pubDate>Thu, 25 Apr 2019 00:21:27 -0400</pubDate>
+      
+      <guid>https://logotyp.us/designer/michael-cronan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rob Janoff</title>
+      <link>https://logotyp.us/designer/rob-janoff/</link>
+      <pubDate>Fri, 19 Apr 2019 23:18:15 -0400</pubDate>
+      
+      <guid>https://logotyp.us/designer/rob-janoff/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Country on Logotyp.us</title>
+    <link>https://logotyp.us/country/</link>
+    <description>Recent content in Country on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2019 00:44:03 -0400</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/country/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Norway</title>
+      <link>https://logotyp.us/country/norway/</link>
+      <pubDate>Fri, 26 Apr 2019 00:44:03 -0400</pubDate>
+      
+      <guid>https://logotyp.us/country/norway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>United States</title>
+      <link>https://logotyp.us/country/united-states/</link>
+      <pubDate>Fri, 26 Apr 2019 00:44:03 -0400</pubDate>
+      
+      <guid>https://logotyp.us/country/united-states/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Germany</title>
+      <link>https://logotyp.us/country/germany/</link>
+      <pubDate>Thu, 25 Apr 2019 01:45:11 -0400</pubDate>
+      
+      <guid>https://logotyp.us/country/germany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>United Kingdom</title>
+      <link>https://logotyp.us/country/united-kingdom/</link>
+      <pubDate>Thu, 25 Apr 2019 01:42:08 -0400</pubDate>
+      
+      <guid>https://logotyp.us/country/united-kingdom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>China</title>
+      <link>https://logotyp.us/country/china/</link>
+      <pubDate>Fri, 19 Apr 2019 23:18:15 -0400</pubDate>
+      
+      <guid>https://logotyp.us/country/china/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
