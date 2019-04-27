@@ -5,7 +5,7 @@
   }
 
   .logos .card-image img {
-    max-height: 12rem;
+    max-height: 11rem;
   }
 
   .container {
@@ -63,5 +63,11 @@
 
   .img-responsive {
     margin: 2rem 0;
+  }
+
+  .img-left, .img-right {
+    width: 50%;
+    margin: 20px auto;
+    float: none;
   }
 }
