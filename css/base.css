@@ -1,16 +1,5 @@
-/*! Spectre.css | MIT License | github.com/picturepan2/spectre */
-/* Manually forked from Normalize.css */
-/* normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
-/* Document
-   ========================================================================== */
 html {
-  font-family: sans-serif;
+  font-family: ibm-plex-sans, sans-serif;
   /* 1 */
   line-height: 1.15;
   /* 3 */
@@ -455,13 +444,13 @@ body {
 }
 
 a {
-  color: #666a84;
+  color: #676a83;
   text-decoration: underline;
 }
 
 a:focus,
 a:hover {
-  color: #9b9eb2;
+  color: #3c3e4d;
 }
 
 [disabled],
@@ -498,7 +487,7 @@ h4,
 h5,
 h6 {
   color: inherit;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.1;
   margin-bottom: 1.5rem;
   margin-top: 2.5rem;
@@ -720,9 +709,9 @@ pre code {
 .btn {
   -webkit-appearance: none;
   background: #fff;
-  border: 0.1rem solid #666a84;
+  border: 0.1rem solid #676a83;
   border-radius: 0.2rem;
-  color: #666a84;
+  color: #676a83;
   cursor: pointer;
   display: inline-block;
   font-size: 1.4rem;
@@ -747,7 +736,7 @@ pre code {
 }
 
 .btn:hover {
-  background: #666a84;
+  background: #676a83;
   border-color: #3c3e4d;
   color: #fff;
 }
@@ -755,32 +744,32 @@ pre code {
 .btn:active,
 .btn.active {
   background: #3c3e4d;
-  border-color: #2B353D;
+  border-color: #2b353d;
   color: #fff;
 }
 
 .btn.btn-primary {
-  background: #666a84;
+  background: #676a83;
   border-color: #3c3e4d;
   color: #fff;
 }
 
 .btn.btn-primary:focus {
   background: #3c3e4d;
-  border-color: #2B353D;
+  border-color: #2b353d;
   color: #fff;
 }
 
 .btn.btn-primary:hover {
   background: #3c3e4d;
-  border-color: #2B353D;
+  border-color: #2b353d;
   color: #fff;
 }
 
 .btn.btn-primary:active,
 .btn.btn-primary.active {
   background: #3c3e4d;
-  border-color: #2B353D;
+  border-color: #2b353d;
   color: #fff;
 }
 
@@ -793,12 +782,12 @@ pre code {
 .btn.btn-link {
   background: transparent;
   border-color: transparent;
-  color: #666a84;
+  color: #676a83;
 }
 
 .btn.btn-link:focus,
 .btn.btn-link:hover {
-  color: #2B353D;
+  color: #2b353d;
 }
 
 .btn.btn-link:active,
@@ -919,7 +908,7 @@ pre code {
 }
 
 .form-input:focus {
-  border-color: #666a84;
+  border-color: #676a83;
   box-shadow: 0 0 0.4rem rgba(87, 100, 198, 0.25);
 }
 
@@ -1013,7 +1002,7 @@ textarea.form-input {
 }
 
 .form-select:focus {
-  border-color: #666a84;
+  border-color: #676a83;
   box-shadow: 0 0 0.4rem rgba(87, 100, 198, 0.25);
 }
 
@@ -1058,7 +1047,7 @@ textarea.form-input {
 .form-checkbox input:focus + .form-icon,
 .form-radio input:focus + .form-icon,
 .form-switch input:focus + .form-icon {
-  border-color: #666a84;
+  border-color: #676a83;
   box-shadow: 0 0 0.4rem rgba(87, 100, 198, 0.25);
 }
 
@@ -1095,8 +1084,8 @@ textarea.form-input {
 
 .form-checkbox input:checked + .form-icon,
 .form-radio input:checked + .form-icon {
-  background: #666a84;
-  border-color: #666a84;
+  background: #676a83;
+  border-color: #676a83;
 }
 
 .form-checkbox input:active + .form-icon,
@@ -1127,8 +1116,8 @@ textarea.form-input {
 }
 
 .form-checkbox input:indeterminate + .form-icon {
-  background: #666a84;
-  border-color: #666a84;
+  background: #676a83;
+  border-color: #676a83;
 }
 
 .form-checkbox input:indeterminate + .form-icon::after {
@@ -1199,8 +1188,8 @@ textarea.form-input {
 }
 
 .form-switch input:checked + .form-icon {
-  background: #666a84;
-  border-color: #666a84;
+  background: #676a83;
+  border-color: #676a83;
 }
 
 .form-switch input:checked + .form-icon::after {
@@ -1288,7 +1277,7 @@ textarea.form-input {
 }
 
 .label.label-primary {
-  background: #666a84;
+  background: #676a83;
   color: #fff;
 }
 
@@ -1910,74 +1899,6 @@ textarea.form-input {
   margin-top: 1.5rem;
 }
 
-.avatar {
-  border-radius: 50%;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.4rem;
-  font-weight: 300;
-  height: 3.2rem;
-  line-height: 1;
-  margin: 0;
-  position: relative;
-  vertical-align: middle;
-  width: 3.2rem;
-}
-
-.avatar.avatar-xs {
-  font-size: 0.8rem;
-  height: 1.6rem;
-  width: 1.6rem;
-}
-
-.avatar.avatar-sm {
-  font-size: 1rem;
-  height: 2.4rem;
-  width: 2.4rem;
-}
-
-.avatar.avatar-lg {
-  font-size: 2rem;
-  height: 4.8rem;
-  width: 4.8rem;
-}
-
-.avatar.avatar-xl {
-  font-size: 2.6rem;
-  height: 6.4rem;
-  width: 6.4rem;
-}
-
-.avatar img {
-  border-radius: 50%;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  z-index: 99;
-}
-
-.avatar .avatar-icon {
-  background: #fff;
-  bottom: -0.2em;
-  height: 50%;
-  padding: 5%;
-  position: absolute;
-  right: -0.2em;
-  width: 50%;
-}
-
-.avatar[data-initial]::after {
-  color: currentColor;
-  content: attr(data-initial);
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  z-index: 0;
-}
-
 .chip {
   -webkit-align-content: space-around;
   align-content: space-around;
@@ -2053,7 +1974,7 @@ textarea.form-input {
 }
 
 .chip-sm.selected {
-  background: #666a84;
+  background: #676a83;
   color: #fff;
 }
 
@@ -2196,7 +2117,7 @@ textarea.form-input {
 }
 
 .badge[data-badge]::after {
-  background: #666a84;
+  background: #676a83;
   background-clip: padding-box;
   border: 0.1rem solid #fff;
   border-radius: 1rem;
@@ -2228,7 +2149,7 @@ textarea.form-input {
 
 .toast.toast-primary {
   background: rgba(87, 100, 198, 0.9);
-  border-color: #666a84;
+  border-color: #676a83;
 }
 
 .toast.toast-success {
@@ -2406,13 +2327,13 @@ textarea.form-input {
 
 .tab .tab-item a:focus,
 .tab .tab-item a:hover {
-  color: #666a84;
+  color: #676a83;
 }
 
 .tab .tab-item.active a,
 .tab .tab-item a.active {
-  border-bottom-color: #666a84;
-  color: #666a84;
+  border-bottom-color: #676a83;
+  color: #676a83;
 }
 
 .tab.tab-block .tab-item {
@@ -2433,6 +2354,7 @@ textarea.form-input {
 
 .pagination .page-item {
   display: inline-block;
+  margin-top: 0;
 }
 
 .pagination .page-item span {
@@ -2441,20 +2363,21 @@ textarea.form-input {
 }
 
 .pagination .page-item a {
-  border-radius: 0.2rem;
+  border-radius: 2rem;
   color: #333;
+  border-radius: .1rem;
   display: inline-block;
-  padding: 0.6rem 0.8rem;
+  padding: .2rem .8rem;
   text-decoration: none;
 }
 
 .pagination .page-item a:focus,
 .pagination .page-item a:hover {
-  color: #666a84;
+  color: #676a83;
 }
 
 .pagination .page-item.active a {
-  background: #666a84;
+  background: #676a83;
   color: #fff;
 }
 
@@ -2663,7 +2586,7 @@ textarea.form-input {
 .loading::after {
   -webkit-animation: loading 500ms infinite linear;
   animation: loading 500ms infinite linear;
-  border: 0.2rem solid #666a84;
+  border: 0.2rem solid #676a83;
   border-radius: 0.8rem;
   border-right-color: transparent;
   border-top-color: transparent;

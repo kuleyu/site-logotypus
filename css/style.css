@@ -1,6 +1,6 @@
 #html,
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: ibm-plex-sans, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   line-height: 1.5;
@@ -34,12 +34,13 @@ a {
 .btn {
   text-transform: uppercase;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 1.6rem;
   font-weight: 500;
 }
 
 .btn.btn-lg {
-  line-height: 2.2rem;
+  line-height: 2.4rem;
+  height: 4.8rem;
 }
 
 .btn-border {
@@ -53,7 +54,7 @@ a {
 }
 
 #topbar .dropdown-toggle {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: ibm-plex-sans, sans-serif;
 }
 
 .navbar {
@@ -72,10 +73,11 @@ a {
   padding-right: 2rem;
   text-decoration: none;
   vertical-align: middle;
-  font-family: 'Raleway', sans-serif;
+  font-family: raleway, sans-serif;
   color: #fff;
 }
 
+a:focus.navbar-brand,
 a:hover.navbar-brand {
   color: #b3b3b3;
 }
@@ -92,11 +94,11 @@ a:hover.navbar-brand {
 }
 
 #hero {
-  background: #2B353D;
-  background: linear-gradient(90deg, #2B353D 0%, #2e2f3b 100%);
-  background: -moz-linear-gradient(90deg, #2B353D 0%, #2e2f3b 100%);
-  background: -webkit-linear-gradient(90deg, #2B353D 0%, #2e2f3b 100%);
-  background: linear-gradient(90deg, #2B353D 0%, #2e2f3b 100%);
+  background: #2b353d;
+  background: linear-gradient(90deg, #2b353d 0%, #2e2f3b 100%);
+  background: -moz-linear-gradient(90deg, #2b353d 0%, #2e2f3b 100%);
+  background: -webkit-linear-gradient(90deg, #2b353d 0%, #2e2f3b 100%);
+  background: linear-gradient(90deg, #2b353d 0%, #2e2f3b 100%);
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#2B353D', endColorstr='#2e2f3b', GradientType=1);
   padding: 5rem 0.5rem 2rem;
 }
@@ -105,9 +107,8 @@ a:hover.navbar-brand {
   margin-bottom: 3rem;
 }
 
-#hero header h2,
 #hero header .h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: raleway, sans-serif;
   color: #f1f3f5;
 }
 
@@ -131,11 +132,25 @@ a:hover.navbar-brand {
   margin: 4rem 0;
 }
 
-#hero header .p {
+#hero .p {
   font-size: 1.8rem;
   font-weight: 100;
   color: #ced4da;
   line-height: 1.4;
+}
+
+#hero .p.small {
+  font-size: 1.3rem;
+  opacity: .5;
+}
+
+#hero .p.small a {
+  color: #fff;
+}
+
+#hero .p.small a:hover {
+  color: #fff;
+  opacity: .7;
 }
 
 .header b {
@@ -232,7 +247,7 @@ a:hover.navbar-brand {
 }
 
 .chip-sm.selected {
-  background: #2B353D;
+  background: #2b353d;
   color: #fff;
 }
 
@@ -273,10 +288,6 @@ a:hover.navbar-brand {
   border-radius: 0;
   width: auto;
   height: auto;
-}
-
-#toplevel .form-autocomplete {
-  margin-bottom: 3rem;
 }
 
 .form-autocomplete .form-autocomplete-input {
@@ -344,7 +355,7 @@ a:hover.navbar-brand {
   background: #fff;
   border: 1px solid #f8f9fa;
   overflow: hidden;
-  color: #adb5bd;
+  color: #627486;
 }
 
 .logos .card:hover {
@@ -353,7 +364,7 @@ a:hover.navbar-brand {
 }
 
 .logos .card:hover .card-title {
-  color: #64707d;
+  color: #495057;
   transition: 0.25s ease-in;
 }
 
@@ -384,19 +395,20 @@ a:hover.navbar-brand {
   font-size: 1em;
   line-height: 1.5em;
   white-space: nowrap;
-  color: #adb5bd;
+  color: #627486;
+  font-weight: 400;
 }
 
 .logos .card .label {
   font-size: 0.8em;
   background: #f8f9fa;
   border: 1px solid #f1f3f5;
-  color: #ced4da;
+  color: #9fa6ad;
 }
 
 .logos .card .card-meta {
   font-size: 0.8em;
-  color: #ced4da;
+  color: #9fa6ad;
 }
 
 .icon-caret {
@@ -428,7 +440,7 @@ a:hover.navbar-brand {
   font-size: 1.3em;
   margin: 4rem 0 2rem;
   padding-bottom: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #495057;
   border-bottom: 1px solid #495057;
 }
@@ -508,14 +520,33 @@ hr {
 }
 
 .navbar.inner {
-  background: #2B353D;
-  background: linear-gradient(45deg, #2B353D 0%, #2e2f3b 100%);
-  background: -moz-linear-gradient(45deg, #2B353D 0%, #2e2f3b 100%);
-  background: -webkit-linear-gradient(45deg, #2B353D 0%, #2e2f3b 100%);
-  background: linear-gradient(45deg, #2B353D 0%, #2e2f3b 100%);
+  background: #2b353d;
+  background: linear-gradient(45deg, #2b353d 0%, #2e2f3b 100%);
+  background: -moz-linear-gradient(45deg, #2b353d 0%, #2e2f3b 100%);
+  background: -webkit-linear-gradient(45deg, #2b353d 0%, #2e2f3b 100%);
+  background: linear-gradient(45deg, #2b353d 0%, #2e2f3b 100%);
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#2B353D', endColorstr='#2e2f3b', GradientType=1);
 }
 
-.table th, .table td {
+.table th,
+.table td {
   max-width: 200px;
+}
+
+.img-right {
+  max-width: 200px;
+  float: right;
+  margin: 0 0 30px 30px;
+}
+
+.img-left {
+  max-width: 200px;
+  float: left;
+  margin: 0 30px 30px 0;
+}
+
+#pagination {
+  margin: 8rem 0;
+  border-top: 1px solid #495057;
+  padding: 2rem;
 }

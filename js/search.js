@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (e.target.value.length == 1) {
       autocomplete_list.innerHTML =
-        '<li class="toast">Please enter at least 2 letters to search.</li>';
+        '<li class="toast">Please enter at least 2 characters to get results</li>';
       return;
     }
 
