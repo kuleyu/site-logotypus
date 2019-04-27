@@ -70,7 +70,7 @@ a {
 .navbar-brand {
   font-size: 2rem;
   font-weight: bold;
-  padding-right: 2rem;
+  padding: 0 .4rem;
   text-decoration: none;
   vertical-align: middle;
   font-family: raleway, sans-serif;
@@ -82,6 +82,11 @@ a:hover.navbar-brand {
   color: #b3b3b3;
 }
 
+.navbar-brand b {
+  font-weight: 200;
+  opacity: 1;
+}
+
 #categories {
   border-bottom: 1px solid #e9ecef;
   padding: 1rem;
@@ -90,7 +95,7 @@ a:hover.navbar-brand {
 
 #categories .btn {
   margin: 0 0.5rem;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 #hero {
