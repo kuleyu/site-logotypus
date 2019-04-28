@@ -255,12 +255,6 @@
   </url>
   
   <url>
-    <loc>https://logotyp.us/industry/food/</loc>
-    <lastmod>2019-04-25T01:45:19-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://logotyp.us/a-z/w/</loc>
     <lastmod>2019-04-25T01:45:19-04:00</lastmod>
     <priority>0</priority>
@@ -278,6 +272,12 @@
   
   <url>
     <loc>https://logotyp.us/industry/entertaiment/</loc>
+    <lastmod>2019-04-25T01:45:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://logotyp.us/industry/food/</loc>
     <lastmod>2019-04-25T01:45:19-04:00</lastmod>
     <priority>0</priority>
   </url>
