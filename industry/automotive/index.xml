@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>automotive on Logotyp.us</title>
+    <link>https://logotyp.us/industry/automotive/</link>
+    <description>Recent content in automotive on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2019 00:08:23 -0400</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/industry/automotive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Toyota</title>
+      <link>https://logotyp.us/logo/toyota/</link>
+      <pubDate>Mon, 29 Apr 2019 00:08:23 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/toyota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toyota F1</title>
+      <link>https://logotyp.us/logo/toyota-f1/</link>
+      <pubDate>Mon, 29 Apr 2019 00:08:20 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/toyota-f1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scion</title>
+      <link>https://logotyp.us/logo/scion/</link>
+      <pubDate>Mon, 29 Apr 2019 00:08:04 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/scion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexus</title>
+      <link>https://logotyp.us/logo/lexus/</link>
+      <pubDate>Mon, 29 Apr 2019 00:06:44 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/lexus/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

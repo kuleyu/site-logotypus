@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L on Logotyp.us</title>
+    <link>https://logotyp.us/a-z/l/</link>
+    <description>Recent content in L on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2019 00:06:44 -0400</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/a-z/l/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lexus</title>
+      <link>https://logotyp.us/logo/lexus/</link>
+      <pubDate>Mon, 29 Apr 2019 00:06:44 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/lexus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lego</title>
+      <link>https://logotyp.us/logo/lego/</link>
+      <pubDate>Mon, 29 Apr 2019 00:06:37 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/lego/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
