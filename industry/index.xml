@@ -6,15 +6,24 @@
     <description>Recent content in Industry on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2019 21:20:43 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 20:46:52 -0400</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>media</title>
+      <link>https://logotyp.us/industry/media/</link>
+      <pubDate>Tue, 30 Apr 2019 20:46:52 -0400</pubDate>
+      
+      <guid>https://logotyp.us/industry/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>healthcare</title>
       <link>https://logotyp.us/industry/healthcare/</link>
-      <pubDate>Mon, 29 Apr 2019 21:20:43 -0400</pubDate>
+      <pubDate>Tue, 30 Apr 2019 20:46:41 -0400</pubDate>
       
       <guid>https://logotyp.us/industry/healthcare/</guid>
       <description></description>
@@ -116,15 +125,6 @@
       <pubDate>Thu, 25 Apr 2019 01:45:19 -0400</pubDate>
       
       <guid>https://logotyp.us/industry/entertaiment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>media</title>
-      <link>https://logotyp.us/industry/media/</link>
-      <pubDate>Thu, 25 Apr 2019 01:45:19 -0400</pubDate>
-      
-      <guid>https://logotyp.us/industry/media/</guid>
       <description></description>
     </item>
     

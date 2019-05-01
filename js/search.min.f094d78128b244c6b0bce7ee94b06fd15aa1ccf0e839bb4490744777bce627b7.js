@@ -5,7 +5,7 @@ var goto_menu_item=function(item){document.location.href='/logo/'+item.getAttrib
 if(e.target.value.length==0){$('#autocomplete').style.display='none';return;}
 $('#autocomplete').style.display='block';if(e.target.value.length==1){autocomplete_list.innerHTML='<li class="toast">Please enter at least 2 characters to get results</li>';return;}
 if('keyCode'in e&&e.keyCode==27){e.target.value='';autocomplete_list.innerHTML='';$('#autocomplete').style.display='none';return;}
-var html=[];for(i in data){if(data[i].toLowerCase().indexOf(e.target.value.toLowerCase())>=0){html.push('<li class="menu-item" content="'+
+var html=[];for(i in data){if(data[i].toLowerCase().indexOf(e.target.value.toLowerCase().replace(/\s+/,'-'))>=0){html.push('<li class="menu-item" content="'+
 data[i].split('.')[0]+
 '" image="'+
 data[i]+
