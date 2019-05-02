@@ -6,7 +6,7 @@
     <description>Recent content in Country on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2019 20:46:52 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2019 22:52:16 -0400</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/country/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>United States</title>
       <link>https://logotyp.us/country/united-states/</link>
-      <pubDate>Tue, 30 Apr 2019 20:46:52 -0400</pubDate>
+      <pubDate>Wed, 01 May 2019 22:52:16 -0400</pubDate>
       
       <guid>https://logotyp.us/country/united-states/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canada</title>
+      <link>https://logotyp.us/country/canada/</link>
+      <pubDate>Wed, 01 May 2019 21:39:29 -0400</pubDate>
+      
+      <guid>https://logotyp.us/country/canada/</guid>
       <description></description>
     </item>
     
