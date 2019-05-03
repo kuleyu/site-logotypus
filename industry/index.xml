@@ -6,10 +6,19 @@
     <description>Recent content in Industry on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 22:52:16 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 02 May 2019 21:24:58 -0400</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>software</title>
+      <link>https://logotyp.us/industry/software/</link>
+      <pubDate>Thu, 02 May 2019 21:24:58 -0400</pubDate>
+      
+      <guid>https://logotyp.us/industry/software/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>banking &amp; finance</title>
@@ -116,15 +125,6 @@
       <pubDate>Fri, 26 Apr 2019 00:44:03 -0400</pubDate>
       
       <guid>https://logotyp.us/industry/social-media/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://logotyp.us/industry/software/</link>
-      <pubDate>Fri, 26 Apr 2019 00:44:03 -0400</pubDate>
-      
-      <guid>https://logotyp.us/industry/software/</guid>
       <description></description>
     </item>
     
