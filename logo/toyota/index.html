@@ -184,7 +184,7 @@
             </div>
             <br />
             <h3 class="h3">Toyota colors</h3>
-            <div class="container">
+            <div class="container mobile">
               <div id="brand-colors" class="columns">
               </div>
             </div>
@@ -447,7 +447,7 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.forEach(function (element) {
+        colors.slice(-6).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });

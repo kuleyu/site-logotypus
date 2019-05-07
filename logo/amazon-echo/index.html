@@ -184,7 +184,7 @@
             </div>
             <br />
             <h3 class="h3">Amazon Echo colors</h3>
-            <div class="container">
+            <div class="container mobile">
               <div id="brand-colors" class="columns">
               </div>
             </div>
@@ -434,14 +434,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-apple-watch">
-  <a href="https://logotyp.us/logo/apple-watch/" class="card">
+          <div class="column col-3 col-sm-6 is-ibm">
+  <a href="https://logotyp.us/logo/ibm/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/apple-watch.svg" alt="Apple Watch">
+      <img src="/file/ibm.svg" alt="IBM">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Apple Watch</h4>
+      <h4 class="card-title text-ellipsis">IBM</h4>
       <div class="hide-sm">
          <span class="card-meta">electronics</span>
         
@@ -470,14 +470,14 @@
           
           
           
-          <div class="column col-3 col-sm-6 is-ibm">
-  <a href="https://logotyp.us/logo/ibm/" class="card">
+          <div class="column col-3 col-sm-6 is-apple-watch">
+  <a href="https://logotyp.us/logo/apple-watch/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/ibm.svg" alt="IBM">
+      <img src="/file/apple-watch.svg" alt="Apple Watch">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">IBM</h4>
+      <h4 class="card-title text-ellipsis">Apple Watch</h4>
       <div class="hide-sm">
          <span class="card-meta">electronics</span>
         
@@ -496,7 +496,7 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.forEach(function (element) {
+        colors.slice(-6).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });

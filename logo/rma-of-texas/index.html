@@ -184,7 +184,7 @@
             </div>
             <br />
             <h3 class="h3">RMA of Texas colors</h3>
-            <div class="container">
+            <div class="container mobile">
               <div id="brand-colors" class="columns">
               </div>
             </div>
@@ -415,14 +415,14 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-reproductive-biology-associates">
-  <a href="https://logotyp.us/logo/reproductive-biology-associates/" class="card">
+          <div class="column col-3 col-sm-6 is-nevada-fertility-institute">
+  <a href="https://logotyp.us/logo/nevada-fertility-institute/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/reproductive-biology-associates.svg" alt="Reproductive Biology Associates">
+      <img src="/file/nevada-fertility-institute.svg" alt="Nevada Fertility Institute">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Reproductive Biology Associates</h4>
+      <h4 class="card-title text-ellipsis">Nevada Fertility Institute</h4>
       <div class="hide-sm">
          <span class="card-meta">healthcare</span>
         
@@ -433,6 +433,8 @@
     </div>
   </a>
 </div>
+          
+          
           
           <div class="column col-3 col-sm-6 is-prelude-fertility">
   <a href="https://logotyp.us/logo/prelude-fertility/" class="card">
@@ -453,18 +455,14 @@
   </a>
 </div>
           
-          
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-pacific-fertility-center">
-  <a href="https://logotyp.us/logo/pacific-fertility-center/" class="card">
+          <div class="column col-3 col-sm-6 is-reproductive-biology-associates">
+  <a href="https://logotyp.us/logo/reproductive-biology-associates/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/pacific-fertility-center.svg" alt="Pacific Fertility Center">
+      <img src="/file/reproductive-biology-associates.svg" alt="Reproductive Biology Associates">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Pacific Fertility Center</h4>
+      <h4 class="card-title text-ellipsis">Reproductive Biology Associates</h4>
       <div class="hide-sm">
          <span class="card-meta">healthcare</span>
         
@@ -475,6 +473,8 @@
     </div>
   </a>
 </div>
+          
+          
           
           <div class="column col-3 col-sm-6 is-tennessee-fertility-institute">
   <a href="https://logotyp.us/logo/tennessee-fertility-institute/" class="card">
@@ -495,14 +495,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-nevada-fertility-institute">
-  <a href="https://logotyp.us/logo/nevada-fertility-institute/" class="card">
+          <div class="column col-3 col-sm-6 is-pacific-fertility-center">
+  <a href="https://logotyp.us/logo/pacific-fertility-center/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/nevada-fertility-institute.svg" alt="Nevada Fertility Institute">
+      <img src="/file/pacific-fertility-center.svg" alt="Pacific Fertility Center">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Nevada Fertility Institute</h4>
+      <h4 class="card-title text-ellipsis">Pacific Fertility Center</h4>
       <div class="hide-sm">
          <span class="card-meta">healthcare</span>
         
@@ -525,7 +525,7 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.forEach(function (element) {
+        colors.slice(-6).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });

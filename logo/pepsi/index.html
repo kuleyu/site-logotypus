@@ -184,7 +184,7 @@
             </div>
             <br />
             <h3 class="h3">Pepsi colors</h3>
-            <div class="container">
+            <div class="container mobile">
               <div id="brand-colors" class="columns">
               </div>
             </div>
@@ -415,18 +415,14 @@
         </h3>
         <div class="columns">
           
-          
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-coca-cola-life">
-  <a href="https://logotyp.us/logo/coca-cola-life/" class="card">
+          <div class="column col-3 col-sm-6 is-coca-cola-light">
+  <a href="https://logotyp.us/logo/coca-cola-light/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/coca-cola-life.svg" alt="Coca Cola Life">
+      <img src="/file/coca-cola-light.svg" alt="Coca Cola Light">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Coca Cola Life</h4>
+      <h4 class="card-title text-ellipsis">Coca Cola Light</h4>
       <div class="hide-sm">
          <span class="card-meta">food</span>
         
@@ -435,6 +431,12 @@
     </div>
   </a>
 </div>
+          
+          
+          
+          
+          
+          
           
           <div class="column col-3 col-sm-6 is-coca-cola">
   <a href="https://logotyp.us/logo/coca-cola/" class="card">
@@ -444,23 +446,6 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Coca Cola</h4>
-      <div class="hide-sm">
-         <span class="card-meta">food</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-coca-cola-light">
-  <a href="https://logotyp.us/logo/coca-cola-light/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/coca-cola-light.svg" alt="Coca Cola Light">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Coca Cola Light</h4>
       <div class="hide-sm">
          <span class="card-meta">food</span>
         
@@ -487,7 +472,22 @@
   </a>
 </div>
           
-          
+          <div class="column col-3 col-sm-6 is-coca-cola-life">
+  <a href="https://logotyp.us/logo/coca-cola-life/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/coca-cola-life.svg" alt="Coca Cola Life">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Coca Cola Life</h4>
+      <div class="hide-sm">
+         <span class="card-meta">food</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
           
         </div>
       </section>
@@ -498,7 +498,7 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.forEach(function (element) {
+        colors.slice(-6).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });

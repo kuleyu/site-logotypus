@@ -191,7 +191,7 @@
             </div>
             <br />
             <h3 class="h3">Google colors</h3>
-            <div class="container">
+            <div class="container mobile">
               <div id="brand-colors" class="columns">
               </div>
             </div>
@@ -403,14 +403,14 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-amazon">
-  <a href="https://logotyp.us/logo/amazon/" class="card">
+          <div class="column col-3 col-sm-6 is-amazon-web-services">
+  <a href="https://logotyp.us/logo/amazon-web-services/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/amazon.svg" alt="Amazon">
+      <img src="/file/amazon-web-services.svg" alt="Amazon Web Services">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Amazon</h4>
+      <h4 class="card-title text-ellipsis">Amazon Web Services</h4>
       <div class="hide-sm">
          <span class="card-meta">internet</span>
         
@@ -422,14 +422,14 @@
           
           
           
-          <div class="column col-3 col-sm-6 is-amazon-web-services">
-  <a href="https://logotyp.us/logo/amazon-web-services/" class="card">
+          <div class="column col-3 col-sm-6 is-amazon">
+  <a href="https://logotyp.us/logo/amazon/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/amazon-web-services.svg" alt="Amazon Web Services">
+      <img src="/file/amazon.svg" alt="Amazon">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Amazon Web Services</h4>
+      <h4 class="card-title text-ellipsis">Amazon</h4>
       <div class="hide-sm">
          <span class="card-meta">internet</span>
         
@@ -448,7 +448,7 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.forEach(function (element) {
+        colors.slice(-6).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });

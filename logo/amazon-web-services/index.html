@@ -184,7 +184,7 @@
             </div>
             <br />
             <h3 class="h3">Amazon Web Services colors</h3>
-            <div class="container">
+            <div class="container mobile">
               <div id="brand-colors" class="columns">
               </div>
             </div>
@@ -415,6 +415,10 @@
         </h3>
         <div class="columns">
           
+          
+          
+          
+          
           <div class="column col-3 col-sm-6 is-google">
   <a href="https://logotyp.us/logo/google/" class="card">
     <div class="card-image">
@@ -434,10 +438,6 @@
   </a>
 </div>
           
-          
-          
-          
-          
         </div>
       </section>
       
@@ -447,7 +447,7 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.forEach(function (element) {
+        colors.slice(-6).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });

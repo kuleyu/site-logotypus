@@ -191,7 +191,7 @@
             </div>
             <br />
             <h3 class="h3">Tennessee Fertility Institute colors</h3>
-            <div class="container">
+            <div class="container mobile">
               <div id="brand-colors" class="columns">
               </div>
             </div>
@@ -530,23 +530,6 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-houston-fertility-specialists">
-  <a href="https://logotyp.us/logo/houston-fertility-specialists/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/houston-fertility-specialists.svg" alt="Houston Fertility Specialists">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Houston Fertility Specialists</h4>
-      <div class="hide-sm">
-         <span class="card-meta">healthcare</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
           
           
           
@@ -570,8 +553,6 @@
           
           
           
-          
-          
           <div class="column col-3 col-sm-6 is-aspire-fertility">
   <a href="https://logotyp.us/logo/aspire-fertility/" class="card">
     <div class="card-image">
@@ -589,6 +570,25 @@
   </a>
 </div>
           
+          <div class="column col-3 col-sm-6 is-houston-fertility-specialists">
+  <a href="https://logotyp.us/logo/houston-fertility-specialists/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/houston-fertility-specialists.svg" alt="Houston Fertility Specialists">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Houston Fertility Specialists</h4>
+      <div class="hide-sm">
+         <span class="card-meta">healthcare</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
           
           
         </div>
@@ -600,7 +600,7 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.forEach(function (element) {
+        colors.slice(-6).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });
