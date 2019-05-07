@@ -477,6 +477,25 @@ One of the subtle changes was to lowercase the “c” in the wordmark, as a vis
         </h3>
         <div class="columns">
           
+          <div class="column col-3 col-sm-6 is-visa">
+  <a href="https://logotyp.us/logo/visa/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/visa.svg" alt="Visa">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Visa</h4>
+      <div class="hide-sm">
+         <span class="card-meta">banking &amp; finance</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
           <div class="column col-3 col-sm-6 is-rbs-group">
   <a href="https://logotyp.us/logo/rbs-group/" class="card">
     <div class="card-image">
@@ -495,42 +514,6 @@ One of the subtle changes was to lowercase the “c” in the wordmark, as a vis
 </div>
           
           
-          
-          <div class="column col-3 col-sm-6 is-royal-bank-of-canada">
-  <a href="https://logotyp.us/logo/royal-bank-of-canada/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/royal-bank-of-canada.svg" alt="Royal Bank of Canada">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Royal Bank of Canada</h4>
-      <div class="hide-sm">
-         <span class="card-meta">banking &amp; finance</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-deutsche-bank">
-  <a href="https://logotyp.us/logo/deutsche-bank/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/deutsche-bank.svg" alt="Deutsche Bank">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Deutsche Bank</h4>
-      <div class="hide-sm">
-         <span class="card-meta">banking &amp; finance</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
           
           <div class="column col-3 col-sm-6 is-amalgamated-bank">
   <a href="https://logotyp.us/logo/amalgamated-bank/" class="card">
@@ -568,14 +551,31 @@ One of the subtle changes was to lowercase the “c” in the wordmark, as a vis
           
           
           
-          <div class="column col-3 col-sm-6 is-visa">
-  <a href="https://logotyp.us/logo/visa/" class="card">
+          <div class="column col-3 col-sm-6 is-deutsche-bank">
+  <a href="https://logotyp.us/logo/deutsche-bank/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/visa.svg" alt="Visa">
+      <img src="/file/deutsche-bank.svg" alt="Deutsche Bank">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Visa</h4>
+      <h4 class="card-title text-ellipsis">Deutsche Bank</h4>
+      <div class="hide-sm">
+         <span class="card-meta">banking &amp; finance</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-royal-bank-of-canada">
+  <a href="https://logotyp.us/logo/royal-bank-of-canada/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/royal-bank-of-canada.svg" alt="Royal Bank of Canada">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Royal Bank of Canada</h4>
       <div class="hide-sm">
          <span class="card-meta">banking &amp; finance</span>
         
@@ -596,7 +596,7 @@ One of the subtle changes was to lowercase the “c” in the wordmark, as a vis
         let html = "";
         colors.forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<div class="column" style="background:${color}" color="${color}"></div>`
+          html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });
         color_parent.innerHTML = html;
         /*  в буфер обмена  */

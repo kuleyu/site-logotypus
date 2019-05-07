@@ -420,7 +420,7 @@
         let html = "";
         colors.forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<div class="column" style="background:${color}" color="${color}"></div>`
+          html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });
         color_parent.innerHTML = html;
         /*  в буфер обмена  */

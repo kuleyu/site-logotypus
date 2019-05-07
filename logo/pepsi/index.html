@@ -415,14 +415,14 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-coca-cola-light">
-  <a href="https://logotyp.us/logo/coca-cola-light/" class="card">
+          <div class="column col-3 col-sm-6 is-diet-coke">
+  <a href="https://logotyp.us/logo/diet-coke/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/coca-cola-light.svg" alt="Coca Cola Light">
+      <img src="/file/diet-coke.svg" alt="Diet Coke">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Coca Cola Light</h4>
+      <h4 class="card-title text-ellipsis">Diet Coke</h4>
       <div class="hide-sm">
          <span class="card-meta">food</span>
         
@@ -431,10 +431,6 @@
     </div>
   </a>
 </div>
-          
-          
-          
-          
           
           
           
@@ -446,23 +442,6 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Coca Cola Life</h4>
-      <div class="hide-sm">
-         <span class="card-meta">food</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-diet-coke">
-  <a href="https://logotyp.us/logo/diet-coke/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/diet-coke.svg" alt="Diet Coke">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Diet Coke</h4>
       <div class="hide-sm">
          <span class="card-meta">food</span>
         
@@ -489,6 +468,27 @@
   </a>
 </div>
           
+          <div class="column col-3 col-sm-6 is-coca-cola-light">
+  <a href="https://logotyp.us/logo/coca-cola-light/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/coca-cola-light.svg" alt="Coca Cola Light">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Coca Cola Light</h4>
+      <div class="hide-sm">
+         <span class="card-meta">food</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
+          
+          
         </div>
       </section>
       
@@ -500,7 +500,7 @@
         let html = "";
         colors.forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<div class="column" style="background:${color}" color="${color}"></div>`
+          html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });
         color_parent.innerHTML = html;
         /*  в буфер обмена  */

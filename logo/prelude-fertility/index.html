@@ -542,8 +542,6 @@ Prelude is a network of top-tier fertility centers across the US offering compre
         </h3>
         <div class="columns">
           
-          
-          
           <div class="column col-3 col-sm-6 is-houston-fertility-specialists">
   <a href="https://logotyp.us/logo/houston-fertility-specialists/" class="card">
     <div class="card-image">
@@ -560,6 +558,29 @@ Prelude is a network of top-tier fertility centers across the US offering compre
     </div>
   </a>
 </div>
+          
+          <div class="column col-3 col-sm-6 is-rma-of-texas">
+  <a href="https://logotyp.us/logo/rma-of-texas/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/rma-of-texas.svg" alt="RMA of Texas">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">RMA of Texas</h4>
+      <div class="hide-sm">
+         <span class="card-meta">healthcare</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
+          
+          
+          
           
           <div class="column col-3 col-sm-6 is-aspire-fertility">
   <a href="https://logotyp.us/logo/aspire-fertility/" class="card">
@@ -582,27 +603,6 @@ Prelude is a network of top-tier fertility centers across the US offering compre
           
           
           
-          
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-rma-of-texas">
-  <a href="https://logotyp.us/logo/rma-of-texas/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/rma-of-texas.svg" alt="RMA of Texas">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">RMA of Texas</h4>
-      <div class="hide-sm">
-         <span class="card-meta">healthcare</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
         </div>
       </section>
       
@@ -614,7 +614,7 @@ Prelude is a network of top-tier fertility centers across the US offering compre
         let html = "";
         colors.forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<div class="column" style="background:${color}" color="${color}"></div>`
+          html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });
         color_parent.innerHTML = html;
         /*  в буфер обмена  */

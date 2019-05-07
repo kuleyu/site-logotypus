@@ -464,14 +464,31 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-mozilla-firefox">
-  <a href="https://logotyp.us/logo/mozilla-firefox/" class="card">
+          <div class="column col-3 col-sm-6 is-opera-mini">
+  <a href="https://logotyp.us/logo/opera-mini/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/mozilla-firefox.svg" alt="Mozilla Firefox">
+      <img src="/file/opera-mini.svg" alt="Opera Mini">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Mozilla Firefox</h4>
+      <h4 class="card-title text-ellipsis">Opera Mini</h4>
+      <div class="hide-sm">
+         <span class="card-meta">software</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-firefox-developer">
+  <a href="https://logotyp.us/logo/firefox-developer/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/firefox-developer.svg" alt="Firefox Developer">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Firefox Developer</h4>
       <div class="hide-sm">
          <span class="card-meta">software</span>
         
@@ -491,6 +508,44 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Firefox Focus</h4>
+      <div class="hide-sm">
+         <span class="card-meta">software</span>
+        
+        
+        <span class="label float-right">2017</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-pocket">
+  <a href="https://logotyp.us/logo/pocket/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/pocket.svg" alt="Pocket">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Pocket</h4>
+      <div class="hide-sm">
+         <span class="card-meta">software</span>
+        
+        
+        <span class="label float-right">2017</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-mozilla-firefox">
+  <a href="https://logotyp.us/logo/mozilla-firefox/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/mozilla-firefox.svg" alt="Mozilla Firefox">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Mozilla Firefox</h4>
       <div class="hide-sm">
          <span class="card-meta">software</span>
         
@@ -538,25 +593,6 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-firefox-developer">
-  <a href="https://logotyp.us/logo/firefox-developer/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/firefox-developer.svg" alt="Firefox Developer">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Firefox Developer</h4>
-      <div class="hide-sm">
-         <span class="card-meta">software</span>
-        
-        
-        <span class="label float-right">2017</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
           <div class="column col-3 col-sm-6 is-firefox-nightly">
   <a href="https://logotyp.us/logo/firefox-nightly/" class="card">
     <div class="card-image">
@@ -595,42 +631,6 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-opera-mini">
-  <a href="https://logotyp.us/logo/opera-mini/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/opera-mini.svg" alt="Opera Mini">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Opera Mini</h4>
-      <div class="hide-sm">
-         <span class="card-meta">software</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-pocket">
-  <a href="https://logotyp.us/logo/pocket/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/pocket.svg" alt="Pocket">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Pocket</h4>
-      <div class="hide-sm">
-         <span class="card-meta">software</span>
-        
-        
-        <span class="label float-right">2017</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
         </div>
       </section>
       
@@ -642,7 +642,7 @@
         let html = "";
         colors.forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<div class="column" style="background:${color}" color="${color}"></div>`
+          html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
         });
         color_parent.innerHTML = html;
         /*  в буфер обмена  */
