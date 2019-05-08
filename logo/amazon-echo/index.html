@@ -184,10 +184,10 @@
             </div>
             <br />
             <h3 class="h3">Amazon Echo colors</h3>
-            <div class="container mobile">
-              <div id="brand-colors" class="columns">
-              </div>
+
+            <div id="brand-colors" class="btn-group btn-group-block">
             </div>
+
 
           </div>
         </div>
@@ -201,6 +201,25 @@
       <section class="section logos results">
         <h3>Brands by Amazon</h3>
         <div class="columns">
+          
+          <div class="column col-3 col-sm-6 is-kindle-fire">
+  <a href="https://logotyp.us/logo/kindle-fire/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/kindle-fire.svg" alt="Kindle Fire">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Kindle Fire</h4>
+      <div class="hide-sm">
+         <span class="card-meta">Electronics</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
           
           
           
@@ -434,14 +453,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-ibm">
-  <a href="https://logotyp.us/logo/ibm/" class="card">
+          <div class="column col-3 col-sm-6 is-apple-watch">
+  <a href="https://logotyp.us/logo/apple-watch/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/ibm.svg" alt="IBM">
+      <img src="/file/apple-watch.svg" alt="Apple Watch">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">IBM</h4>
+      <h4 class="card-title text-ellipsis">Apple Watch</h4>
       <div class="hide-sm">
          <span class="card-meta">electronics</span>
         
@@ -468,16 +487,14 @@
   </a>
 </div>
           
-          
-          
-          <div class="column col-3 col-sm-6 is-apple-watch">
-  <a href="https://logotyp.us/logo/apple-watch/" class="card">
+          <div class="column col-3 col-sm-6 is-ibm">
+  <a href="https://logotyp.us/logo/ibm/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/apple-watch.svg" alt="Apple Watch">
+      <img src="/file/ibm.svg" alt="IBM">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Apple Watch</h4>
+      <h4 class="card-title text-ellipsis">IBM</h4>
       <div class="hide-sm">
          <span class="card-meta">electronics</span>
         
@@ -486,6 +503,8 @@
     </div>
   </a>
 </div>
+          
+          
           
         </div>
       </section>
@@ -496,15 +515,15 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-6).forEach(function (element) {
+        colors.slice(-5).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
+          html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-        /*  в буфер обмена  */
+         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color'))
+            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
           })
         });
       })

@@ -191,10 +191,10 @@
             </div>
             <br />
             <h3 class="h3">Pacific Fertility Center colors</h3>
-            <div class="container mobile">
-              <div id="brand-colors" class="columns">
-              </div>
+
+            <div id="brand-colors" class="btn-group btn-group-block">
             </div>
+
 
           </div>
         </div>
@@ -213,6 +213,8 @@
       <section class="section logos results">
         <h3>Brands by The Prelude Network</h3>
         <div class="columns">
+          
+          
           
           
           
@@ -378,6 +380,8 @@
     </div>
   </a>
 </div>
+          
+          
           
           <div class="column col-3 col-sm-6 is-indiana-fertility-institute">
   <a href="https://logotyp.us/logo/indiana-fertility-institute/" class="card">
@@ -556,6 +560,23 @@
   </a>
 </div>
           
+          <div class="column col-3 col-sm-6 is-aspire-fertility">
+  <a href="https://logotyp.us/logo/aspire-fertility/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/aspire-fertility.svg" alt="Aspire Fertility">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Aspire Fertility</h4>
+      <div class="hide-sm">
+         <span class="card-meta">healthcare</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
           
           
           <div class="column col-3 col-sm-6 is-rma-of-texas">
@@ -579,23 +600,6 @@
           
           
           
-          <div class="column col-3 col-sm-6 is-aspire-fertility">
-  <a href="https://logotyp.us/logo/aspire-fertility/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/aspire-fertility.svg" alt="Aspire Fertility">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Aspire Fertility</h4>
-      <div class="hide-sm">
-         <span class="card-meta">healthcare</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
         </div>
       </section>
       
@@ -605,15 +609,15 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-6).forEach(function (element) {
+        colors.slice(-5).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
+          html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-        /*  в буфер обмена  */
+         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color'))
+            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
           })
         });
       })

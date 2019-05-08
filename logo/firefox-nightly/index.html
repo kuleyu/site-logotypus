@@ -191,10 +191,10 @@
             </div>
             <br />
             <h3 class="h3">Firefox Nightly colors</h3>
-            <div class="container mobile">
-              <div id="brand-colors" class="columns">
-              </div>
+
+            <div id="brand-colors" class="btn-group btn-group-block">
             </div>
+
 
           </div>
         </div>
@@ -208,6 +208,8 @@
       <section class="section logos results">
         <h3>Brands by Mozilla Foundation</h3>
         <div class="columns">
+          
+          
           
           
           
@@ -469,6 +471,8 @@
           
           
           
+          
+          
         </div>
       </section>
       
@@ -478,8 +482,6 @@
             class="btn btn-sm btn-link float-right">View more</a>
         </h3>
         <div class="columns">
-          
-          
           
           <div class="column col-3 col-sm-6 is-opera-mini">
   <a href="https://logotyp.us/logo/opera-mini/" class="card">
@@ -506,6 +508,23 @@
           
           
           
+          <div class="column col-3 col-sm-6 is-opera-news">
+  <a href="https://logotyp.us/logo/opera-news/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/opera-news.svg" alt="Opera News">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Opera News</h4>
+      <div class="hide-sm">
+         <span class="card-meta">software</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
           <div class="column col-3 col-sm-6 is-pocket">
   <a href="https://logotyp.us/logo/pocket/" class="card">
     <div class="card-image">
@@ -525,22 +544,7 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-opera-news">
-  <a href="https://logotyp.us/logo/opera-news/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/opera-news.svg" alt="Opera News">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Opera News</h4>
-      <div class="hide-sm">
-         <span class="card-meta">software</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
+          
           
           
           
@@ -553,15 +557,15 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-6).forEach(function (element) {
+        colors.slice(-5).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<div class="column" style="background:${color}" color="${color}">&nbsp;</div>`
+          html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-        /*  в буфер обмена  */
+         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color'))
+            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
           })
         });
       })
