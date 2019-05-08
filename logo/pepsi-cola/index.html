@@ -473,8 +473,6 @@
   </a>
 </div>
           
-          
-          
           <div class="column col-3 col-sm-6 is-diet-coke">
   <a href="https://logotyp.us/logo/diet-coke/" class="card">
     <div class="card-image">
@@ -492,6 +490,8 @@
   </a>
 </div>
           
+          
+          
         </div>
       </section>
       
@@ -501,12 +501,11 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-5).forEach(function (element) {
+        colors.slice(-8).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
             navigator.clipboard.writeText(this.getAttribute('color').slice(1))

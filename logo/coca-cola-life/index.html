@@ -435,8 +435,6 @@
           
           
           
-          
-          
           <div class="column col-3 col-sm-6 is-pepsi">
   <a href="https://logotyp.us/logo/pepsi/" class="card">
     <div class="card-image">
@@ -445,6 +443,27 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Pepsi</h4>
+      <div class="hide-sm">
+         <span class="card-meta">food</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
+          
+          
+          <div class="column col-3 col-sm-6 is-pepsico">
+  <a href="https://logotyp.us/logo/pepsico/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/pepsico.svg" alt="Pepsico">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Pepsico</h4>
       <div class="hide-sm">
          <span class="card-meta">food</span>
         
@@ -473,25 +492,6 @@
           
           
           
-          <div class="column col-3 col-sm-6 is-pepsico">
-  <a href="https://logotyp.us/logo/pepsico/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/pepsico.svg" alt="Pepsico">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Pepsico</h4>
-      <div class="hide-sm">
-         <span class="card-meta">food</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          
-          
         </div>
       </section>
       
@@ -501,12 +501,11 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-5).forEach(function (element) {
+        colors.slice(-8).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
             navigator.clipboard.writeText(this.getAttribute('color').slice(1))

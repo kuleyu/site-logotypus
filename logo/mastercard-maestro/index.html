@@ -438,6 +438,23 @@
         </h3>
         <div class="columns">
           
+          <div class="column col-3 col-sm-6 is-royal-bank-of-canada">
+  <a href="https://logotyp.us/logo/royal-bank-of-canada/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/royal-bank-of-canada.svg" alt="Royal Bank of Canada">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Royal Bank of Canada</h4>
+      <div class="hide-sm">
+         <span class="card-meta">banking &amp; finance</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
           <div class="column col-3 col-sm-6 is-amalgamated-bank">
   <a href="https://logotyp.us/logo/amalgamated-bank/" class="card">
     <div class="card-image">
@@ -446,6 +463,27 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Amalgamated Bank</h4>
+      <div class="hide-sm">
+         <span class="card-meta">banking &amp; finance</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
+          
+          
+          <div class="column col-3 col-sm-6 is-visa">
+  <a href="https://logotyp.us/logo/visa/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/visa.svg" alt="Visa">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Visa</h4>
       <div class="hide-sm">
          <span class="card-meta">banking &amp; finance</span>
         
@@ -472,23 +510,6 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-royal-bank-of-canada">
-  <a href="https://logotyp.us/logo/royal-bank-of-canada/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/royal-bank-of-canada.svg" alt="Royal Bank of Canada">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Royal Bank of Canada</h4>
-      <div class="hide-sm">
-         <span class="card-meta">banking &amp; finance</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
           <div class="column col-3 col-sm-6 is-deutsche-bank">
   <a href="https://logotyp.us/logo/deutsche-bank/" class="card">
     <div class="card-image">
@@ -506,10 +527,6 @@
   </a>
 </div>
           
-          
-          
-          
-          
           <div class="column col-3 col-sm-6 is-rbs-group">
   <a href="https://logotyp.us/logo/rbs-group/" class="card">
     <div class="card-image">
@@ -518,23 +535,6 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">RBS Group</h4>
-      <div class="hide-sm">
-         <span class="card-meta">banking &amp; finance</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-visa">
-  <a href="https://logotyp.us/logo/visa/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/visa.svg" alt="Visa">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Visa</h4>
       <div class="hide-sm">
          <span class="card-meta">banking &amp; finance</span>
         
@@ -555,12 +555,11 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-5).forEach(function (element) {
+        colors.slice(-8).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
             navigator.clipboard.writeText(this.getAttribute('color').slice(1))

@@ -533,6 +533,8 @@
         </h3>
         <div class="columns">
           
+          
+          
           <div class="column col-3 col-sm-6 is-houston-fertility-specialists">
   <a href="https://logotyp.us/logo/houston-fertility-specialists/" class="card">
     <div class="card-image">
@@ -549,6 +551,12 @@
     </div>
   </a>
 </div>
+          
+          
+          
+          
+          
+          
           
           <div class="column col-3 col-sm-6 is-rma-of-texas">
   <a href="https://logotyp.us/logo/rma-of-texas/" class="card">
@@ -569,12 +577,6 @@
           
           
           
-          
-          
-          
-          
-          
-          
           <div class="column col-3 col-sm-6 is-aspire-fertility">
   <a href="https://logotyp.us/logo/aspire-fertility/" class="card">
     <div class="card-image">
@@ -592,8 +594,6 @@
   </a>
 </div>
           
-          
-          
         </div>
       </section>
       
@@ -603,12 +603,11 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-5).forEach(function (element) {
+        colors.slice(-8).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
             navigator.clipboard.writeText(this.getAttribute('color').slice(1))

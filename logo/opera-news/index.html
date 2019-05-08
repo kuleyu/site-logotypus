@@ -433,7 +433,24 @@
         </h3>
         <div class="columns">
           
-          
+          <div class="column col-3 col-sm-6 is-firefox-nightly">
+  <a href="https://logotyp.us/logo/firefox-nightly/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/firefox-nightly.svg" alt="Firefox Nightly">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Firefox Nightly</h4>
+      <div class="hide-sm">
+         <span class="card-meta">software</span>
+        
+        
+        <span class="label float-right">2017</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
           
           
           
@@ -445,6 +462,27 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Mozilla Thunderbird</h4>
+      <div class="hide-sm">
+         <span class="card-meta">software</span>
+        
+        
+        <span class="label float-right">2017</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
+          <div class="column col-3 col-sm-6 is-firefox-focus">
+  <a href="https://logotyp.us/logo/firefox-focus/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/firefox-focus.svg" alt="Firefox Focus">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Firefox Focus</h4>
       <div class="hide-sm">
          <span class="card-meta">software</span>
         
@@ -475,14 +513,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-pocket">
-  <a href="https://logotyp.us/logo/pocket/" class="card">
+          <div class="column col-3 col-sm-6 is-mozilla-firefox">
+  <a href="https://logotyp.us/logo/mozilla-firefox/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/pocket.svg" alt="Pocket">
+      <img src="/file/mozilla-firefox.svg" alt="Mozilla Firefox">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Pocket</h4>
+      <h4 class="card-title text-ellipsis">Mozilla Firefox</h4>
       <div class="hide-sm">
          <span class="card-meta">software</span>
         
@@ -513,52 +551,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-mozilla-firefox">
-  <a href="https://logotyp.us/logo/mozilla-firefox/" class="card">
+          <div class="column col-3 col-sm-6 is-pocket">
+  <a href="https://logotyp.us/logo/pocket/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/mozilla-firefox.svg" alt="Mozilla Firefox">
+      <img src="/file/pocket.svg" alt="Pocket">
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Mozilla Firefox</h4>
-      <div class="hide-sm">
-         <span class="card-meta">software</span>
-        
-        
-        <span class="label float-right">2017</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-firefox-focus">
-  <a href="https://logotyp.us/logo/firefox-focus/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/firefox-focus.svg" alt="Firefox Focus">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Firefox Focus</h4>
-      <div class="hide-sm">
-         <span class="card-meta">software</span>
-        
-        
-        <span class="label float-right">2017</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-firefox-nightly">
-  <a href="https://logotyp.us/logo/firefox-nightly/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/firefox-nightly.svg" alt="Firefox Nightly">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Firefox Nightly</h4>
+      <h4 class="card-title text-ellipsis">Pocket</h4>
       <div class="hide-sm">
          <span class="card-meta">software</span>
         
@@ -579,12 +579,11 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-5).forEach(function (element) {
+        colors.slice(-8).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
             navigator.clipboard.writeText(this.getAttribute('color').slice(1))

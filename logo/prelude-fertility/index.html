@@ -547,6 +547,46 @@ Prelude is a network of top-tier fertility centers across the US offering compre
           
           
           
+          <div class="column col-3 col-sm-6 is-aspire-fertility">
+  <a href="https://logotyp.us/logo/aspire-fertility/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/aspire-fertility.svg" alt="Aspire Fertility">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Aspire Fertility</h4>
+      <div class="hide-sm">
+         <span class="card-meta">healthcare</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
+          
+          
+          <div class="column col-3 col-sm-6 is-rma-of-texas">
+  <a href="https://logotyp.us/logo/rma-of-texas/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/rma-of-texas.svg" alt="RMA of Texas">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">RMA of Texas</h4>
+      <div class="hide-sm">
+         <span class="card-meta">healthcare</span>
+        
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
           
           
           <div class="column col-3 col-sm-6 is-houston-fertility-specialists">
@@ -566,46 +606,6 @@ Prelude is a network of top-tier fertility centers across the US offering compre
   </a>
 </div>
           
-          
-          
-          
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-aspire-fertility">
-  <a href="https://logotyp.us/logo/aspire-fertility/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/aspire-fertility.svg" alt="Aspire Fertility">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Aspire Fertility</h4>
-      <div class="hide-sm">
-         <span class="card-meta">healthcare</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-rma-of-texas">
-  <a href="https://logotyp.us/logo/rma-of-texas/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/rma-of-texas.svg" alt="RMA of Texas">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">RMA of Texas</h4>
-      <div class="hide-sm">
-         <span class="card-meta">healthcare</span>
-        
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
         </div>
       </section>
       
@@ -615,12 +615,11 @@ Prelude is a network of top-tier fertility centers across the US offering compre
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-5).forEach(function (element) {
+        colors.slice(-8).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
             navigator.clipboard.writeText(this.getAttribute('color').slice(1))

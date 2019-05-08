@@ -467,25 +467,6 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-walt-disney-records">
-  <a href="https://logotyp.us/logo/walt-disney-records/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/walt-disney-records.svg" alt="Walt Disney Records">
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Walt Disney Records</h4>
-      <div class="hide-sm">
-         <span class="card-meta">media</span>
-        
-        
-        <span class="label float-right">1923</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
           <div class="column col-3 col-sm-6 is-kvue-abc">
   <a href="https://logotyp.us/logo/kvue-abc/" class="card">
     <div class="card-image">
@@ -507,6 +488,25 @@
           
           
           
+          <div class="column col-3 col-sm-6 is-walt-disney-records">
+  <a href="https://logotyp.us/logo/walt-disney-records/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/walt-disney-records.svg" alt="Walt Disney Records">
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Walt Disney Records</h4>
+      <div class="hide-sm">
+         <span class="card-meta">media</span>
+        
+        
+        <span class="label float-right">1923</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
         </div>
       </section>
       
@@ -516,12 +516,11 @@
       .then(colors => {
         const color_parent = document.getElementById("brand-colors");
         let html = "";
-        colors.slice(-5).forEach(function (element) {
+        colors.slice(-8).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
-         
         color_parent.childNodes.forEach(function (element) {
           element.addEventListener('click', function () {
             navigator.clipboard.writeText(this.getAttribute('color').slice(1))
