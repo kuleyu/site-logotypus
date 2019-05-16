@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>awards on Logotyp.us</title>
+    <link>https://logotyp.us/industry/awards/</link>
+    <description>Recent content in awards on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 May 2019 22:28:04 -0400</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/industry/awards/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Super Doctors</title>
+      <link>https://logotyp.us/logo/super-doctors/</link>
+      <pubDate>Wed, 15 May 2019 22:28:04 -0400</pubDate>
+      
+      <guid>https://logotyp.us/logo/super-doctors/</guid>
+      <description>About Super Doctors (from superdoctors.com)
+Super Doctors is a listing of outstanding doctors from more than 40 medical specialties who have attained a high degree of peer recognition or professional achievement. Super Doctors is published as a special supplement in leading newspapers and city and regional magazines.</description>
+    </item>
+    
+  </channel>
+</rss>
