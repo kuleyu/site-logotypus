@@ -172,14 +172,16 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-prosper-healthcare">
-  <a href="https://logotyp.us/logo/prosper-healthcare/" class="card">
+          
+          
+          <div class="column col-3 col-sm-6 is-sart">
+  <a href="https://logotyp.us/logo/sart/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/prosper-healthcare.svg" alt="Prosper healthcare logo preview" />
+      <img src="/file/sart.svg" alt="Sart logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Prosper healthcare</h4>
+      <h4 class="card-title text-ellipsis">Sart</h4>
       <div class="hide-sm">
         <span class="card-meta">healthcare</span>
         
@@ -204,56 +206,6 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-the-joint-commission">
-  <a href="https://logotyp.us/logo/the-joint-commission/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/the-joint-commission.svg" alt="The Joint Commission logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">The Joint Commission</h4>
-      <div class="hide-sm">
-        <span class="card-meta">healthcare</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-sharp-healthcare">
-  <a href="https://logotyp.us/logo/sharp-healthcare/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/sharp-healthcare.svg" alt="Sharp Healthcare logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Sharp Healthcare</h4>
-      <div class="hide-sm">
-        <span class="card-meta">healthcare</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-sart">
-  <a href="https://logotyp.us/logo/sart/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/sart.svg" alt="Sart logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Sart</h4>
-      <div class="hide-sm">
-        <span class="card-meta">healthcare</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
           <div class="column col-3 col-sm-6 is-cdc">
   <a href="https://logotyp.us/logo/cdc/" class="card">
     <div class="card-image">
@@ -270,14 +222,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-fertilehope">
-  <a href="https://logotyp.us/logo/fertilehope/" class="card">
+          <div class="column col-3 col-sm-6 is-prosper-healthcare">
+  <a href="https://logotyp.us/logo/prosper-healthcare/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/fertilehope.svg" alt="FertileHope logo preview" />
+      <img src="/file/prosper-healthcare.svg" alt="Prosper healthcare logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">FertileHope</h4>
+      <h4 class="card-title text-ellipsis">Prosper healthcare</h4>
       <div class="hide-sm">
         <span class="card-meta">healthcare</span>
         
@@ -302,6 +254,54 @@
   </a>
 </div>
           
+          <div class="column col-3 col-sm-6 is-the-joint-commission">
+  <a href="https://logotyp.us/logo/the-joint-commission/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/the-joint-commission.svg" alt="The Joint Commission logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">The Joint Commission</h4>
+      <div class="hide-sm">
+        <span class="card-meta">healthcare</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-fertilehope">
+  <a href="https://logotyp.us/logo/fertilehope/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/fertilehope.svg" alt="FertileHope logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">FertileHope</h4>
+      <div class="hide-sm">
+        <span class="card-meta">healthcare</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-sharp-healthcare">
+  <a href="https://logotyp.us/logo/sharp-healthcare/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/sharp-healthcare.svg" alt="Sharp Healthcare logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Sharp Healthcare</h4>
+      <div class="hide-sm">
+        <span class="card-meta">healthcare</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
         </div>
       </section>
       
@@ -316,11 +316,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

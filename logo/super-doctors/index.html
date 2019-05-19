@@ -170,32 +170,14 @@
         </h3>
         <div class="columns">
           
-          
-          
-          <div class="column col-3 col-sm-6 is-best-doctors">
-  <a href="https://logotyp.us/logo/best-doctors/" class="card">
+          <div class="column col-3 col-sm-6 is-patients-choice-award">
+  <a href="https://logotyp.us/logo/patients-choice-award/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/best-doctors.svg" alt="Best Doctors logo preview" />
+      <img src="/file/patients-choice-award.svg" alt="Patients Choice Award logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Best Doctors</h4>
-      <div class="hide-sm">
-        <span class="card-meta">awards</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-boston-top-docs">
-  <a href="https://logotyp.us/logo/boston-top-docs/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/boston-top-docs.svg" alt="Boston Top Docs logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Boston Top Docs</h4>
+      <h4 class="card-title text-ellipsis">Patients Choice Award</h4>
       <div class="hide-sm">
         <span class="card-meta">awards</span>
         
@@ -220,14 +202,32 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-patients-choice-award">
-  <a href="https://logotyp.us/logo/patients-choice-award/" class="card">
+          <div class="column col-3 col-sm-6 is-boston-top-docs">
+  <a href="https://logotyp.us/logo/boston-top-docs/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/patients-choice-award.svg" alt="Patients Choice Award logo preview" />
+      <img src="/file/boston-top-docs.svg" alt="Boston Top Docs logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Patients Choice Award</h4>
+      <h4 class="card-title text-ellipsis">Boston Top Docs</h4>
+      <div class="hide-sm">
+        <span class="card-meta">awards</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
+          
+          <div class="column col-3 col-sm-6 is-best-doctors">
+  <a href="https://logotyp.us/logo/best-doctors/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/best-doctors.svg" alt="Best Doctors logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Best Doctors</h4>
       <div class="hide-sm">
         <span class="card-meta">awards</span>
         
@@ -250,11 +250,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

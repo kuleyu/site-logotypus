@@ -183,35 +183,17 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-apple-music">
-  <a href="https://logotyp.us/logo/apple-music/" class="card">
+          <div class="column col-3 col-sm-6 is-walt-disney-records">
+  <a href="https://logotyp.us/logo/walt-disney-records/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/apple-music.svg" alt="Apple Music logo preview" />
+      <img src="/file/walt-disney-records.svg" alt="Walt Disney Records logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Apple Music</h4>
+      <h4 class="card-title text-ellipsis">Walt Disney Records</h4>
       <div class="hide-sm">
         <span class="card-meta">media</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-apple-tv-plus">
-  <a href="https://logotyp.us/logo/apple-tv-plus/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/apple-tv-plus.svg" alt="Apple TV Plus logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Apple TV Plus</h4>
-      <div class="hide-sm">
-        <span class="card-meta">media</span>
-        <span class="label float-right">2019</span>
+        <span class="label float-right">1923</span>
       </div>
     </div>
   </a>
@@ -233,17 +215,35 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-walt-disney-records">
-  <a href="https://logotyp.us/logo/walt-disney-records/" class="card">
+          
+          
+          <div class="column col-3 col-sm-6 is-apple-music">
+  <a href="https://logotyp.us/logo/apple-music/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/walt-disney-records.svg" alt="Walt Disney Records logo preview" />
+      <img src="/file/apple-music.svg" alt="Apple Music logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Walt Disney Records</h4>
+      <h4 class="card-title text-ellipsis">Apple Music</h4>
       <div class="hide-sm">
         <span class="card-meta">media</span>
-        <span class="label float-right">1923</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-apple-tv-plus">
+  <a href="https://logotyp.us/logo/apple-tv-plus/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/apple-tv-plus.svg" alt="Apple TV Plus logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Apple TV Plus</h4>
+      <div class="hide-sm">
+        <span class="card-meta">media</span>
+        <span class="label float-right">2019</span>
       </div>
     </div>
   </a>
@@ -263,11 +263,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

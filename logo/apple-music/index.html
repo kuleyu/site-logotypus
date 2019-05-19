@@ -524,14 +524,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-kusi-news">
-  <a href="https://logotyp.us/logo/kusi-news/" class="card">
+          <div class="column col-3 col-sm-6 is-kvue-abc">
+  <a href="https://logotyp.us/logo/kvue-abc/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/kusi-news.svg" alt="Kusi News logo preview" />
+      <img src="/file/kvue-abc.svg" alt="KVUE ABC logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Kusi News</h4>
+      <h4 class="card-title text-ellipsis">KVUE ABC</h4>
       <div class="hide-sm">
         <span class="card-meta">media</span>
         
@@ -539,6 +539,8 @@
     </div>
   </a>
 </div>
+          
+          
           
           <div class="column col-3 col-sm-6 is-apple-tv-plus">
   <a href="https://logotyp.us/logo/apple-tv-plus/" class="card">
@@ -556,16 +558,14 @@
   </a>
 </div>
           
-          
-          
-          <div class="column col-3 col-sm-6 is-kvue-abc">
-  <a href="https://logotyp.us/logo/kvue-abc/" class="card">
+          <div class="column col-3 col-sm-6 is-kusi-news">
+  <a href="https://logotyp.us/logo/kusi-news/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/kvue-abc.svg" alt="KVUE ABC logo preview" />
+      <img src="/file/kusi-news.svg" alt="Kusi News logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">KVUE ABC</h4>
+      <h4 class="card-title text-ellipsis">Kusi News</h4>
       <div class="hide-sm">
         <span class="card-meta">media</span>
         
@@ -588,11 +588,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

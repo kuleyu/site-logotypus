@@ -495,6 +495,8 @@ The first logo for Disney was actually just a plain, typed font that read “Dis
         </h3>
         <div class="columns">
           
+          
+          
           <div class="column col-3 col-sm-6 is-disney">
   <a href="https://logotyp.us/logo/disney/" class="card">
     <div class="card-image">
@@ -510,8 +512,6 @@ The first logo for Disney was actually just a plain, typed font that read “Dis
     </div>
   </a>
 </div>
-          
-          
           
           <div class="column col-3 col-sm-6 is-walt-disney-company">
   <a href="https://logotyp.us/logo/walt-disney-company/" class="card">
@@ -543,11 +543,14 @@ The first logo for Disney was actually just a plain, typed font that read “Dis
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

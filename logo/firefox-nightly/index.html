@@ -499,22 +499,6 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-mozilla-firefox">
-  <a href="https://logotyp.us/logo/mozilla-firefox/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/mozilla-firefox.svg" alt="Mozilla Firefox logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Mozilla Firefox</h4>
-      <div class="hide-sm">
-        <span class="card-meta">software</span>
-        <span class="label float-right">2017</span>
-      </div>
-    </div>
-  </a>
-</div>
-          
           <div class="column col-3 col-sm-6 is-mozilla-foundation">
   <a href="https://logotyp.us/logo/mozilla-foundation/" class="card">
     <div class="card-image">
@@ -523,6 +507,22 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Mozilla Foundation</h4>
+      <div class="hide-sm">
+        <span class="card-meta">software</span>
+        <span class="label float-right">2017</span>
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-pocket">
+  <a href="https://logotyp.us/logo/pocket/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/pocket.svg" alt="Pocket logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Pocket</h4>
       <div class="hide-sm">
         <span class="card-meta">software</span>
         <span class="label float-right">2017</span>
@@ -547,30 +547,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-mozilla-thunderbird">
-  <a href="https://logotyp.us/logo/mozilla-thunderbird/" class="card">
+          <div class="column col-3 col-sm-6 is-firefox-focus">
+  <a href="https://logotyp.us/logo/firefox-focus/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/mozilla-thunderbird.svg" alt="Mozilla Thunderbird logo preview" />
+      <img src="/file/firefox-focus.svg" alt="Firefox Focus logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Mozilla Thunderbird</h4>
-      <div class="hide-sm">
-        <span class="card-meta">software</span>
-        <span class="label float-right">2017</span>
-      </div>
-    </div>
-  </a>
-</div>
-          
-          <div class="column col-3 col-sm-6 is-firefox-developer">
-  <a href="https://logotyp.us/logo/firefox-developer/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/firefox-developer.svg" alt="Firefox Developer logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Firefox Developer</h4>
+      <h4 class="card-title text-ellipsis">Firefox Focus</h4>
       <div class="hide-sm">
         <span class="card-meta">software</span>
         <span class="label float-right">2017</span>
@@ -595,16 +579,14 @@
   </a>
 </div>
           
-          
-          
-          <div class="column col-3 col-sm-6 is-pocket">
-  <a href="https://logotyp.us/logo/pocket/" class="card">
+          <div class="column col-3 col-sm-6 is-firefox-developer">
+  <a href="https://logotyp.us/logo/firefox-developer/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/pocket.svg" alt="Pocket logo preview" />
+      <img src="/file/firefox-developer.svg" alt="Firefox Developer logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Pocket</h4>
+      <h4 class="card-title text-ellipsis">Firefox Developer</h4>
       <div class="hide-sm">
         <span class="card-meta">software</span>
         <span class="label float-right">2017</span>
@@ -613,14 +595,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-firefox-focus">
-  <a href="https://logotyp.us/logo/firefox-focus/" class="card">
+          <div class="column col-3 col-sm-6 is-mozilla-firefox">
+  <a href="https://logotyp.us/logo/mozilla-firefox/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/firefox-focus.svg" alt="Firefox Focus logo preview" />
+      <img src="/file/mozilla-firefox.svg" alt="Mozilla Firefox logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Firefox Focus</h4>
+      <h4 class="card-title text-ellipsis">Mozilla Firefox</h4>
       <div class="hide-sm">
         <span class="card-meta">software</span>
         <span class="label float-right">2017</span>
@@ -628,6 +610,24 @@
     </div>
   </a>
 </div>
+          
+          <div class="column col-3 col-sm-6 is-mozilla-thunderbird">
+  <a href="https://logotyp.us/logo/mozilla-thunderbird/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/mozilla-thunderbird.svg" alt="Mozilla Thunderbird logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Mozilla Thunderbird</h4>
+      <div class="hide-sm">
+        <span class="card-meta">software</span>
+        <span class="label float-right">2017</span>
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
           
         </div>
       </section>
@@ -643,11 +643,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

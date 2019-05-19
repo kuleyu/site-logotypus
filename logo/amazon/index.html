@@ -515,8 +515,6 @@ The third and seemingly final design of the Amazon logo features a couple of rea
         </h3>
         <div class="columns">
           
-          
-          
           <div class="column col-3 col-sm-6 is-amazon-web-services">
   <a href="https://logotyp.us/logo/amazon-web-services/" class="card">
     <div class="card-image">
@@ -532,6 +530,8 @@ The third and seemingly final design of the Amazon logo features a couple of rea
     </div>
   </a>
 </div>
+          
+          
           
           <div class="column col-3 col-sm-6 is-google">
   <a href="https://logotyp.us/logo/google/" class="card">
@@ -563,11 +563,14 @@ The third and seemingly final design of the Amazon logo features a couple of rea
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

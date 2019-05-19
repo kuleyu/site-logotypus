@@ -506,6 +506,22 @@
         </h3>
         <div class="columns">
           
+          <div class="column col-3 col-sm-6 is-kvue-abc">
+  <a href="https://logotyp.us/logo/kvue-abc/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/kvue-abc.svg" alt="KVUE ABC logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">KVUE ABC</h4>
+      <div class="hide-sm">
+        <span class="card-meta">media</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
           <div class="column col-3 col-sm-6 is-kusi-news">
   <a href="https://logotyp.us/logo/kusi-news/" class="card">
     <div class="card-image">
@@ -522,6 +538,8 @@
   </a>
 </div>
           
+          
+          
           <div class="column col-3 col-sm-6 is-prime-video">
   <a href="https://logotyp.us/logo/prime-video/" class="card">
     <div class="card-image">
@@ -533,24 +551,6 @@
       <div class="hide-sm">
         <span class="card-meta">media</span>
         
-      </div>
-    </div>
-  </a>
-</div>
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-walt-disney-records">
-  <a href="https://logotyp.us/logo/walt-disney-records/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/walt-disney-records.svg" alt="Walt Disney Records logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Walt Disney Records</h4>
-      <div class="hide-sm">
-        <span class="card-meta">media</span>
-        <span class="label float-right">1923</span>
       </div>
     </div>
   </a>
@@ -572,17 +572,17 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-kvue-abc">
-  <a href="https://logotyp.us/logo/kvue-abc/" class="card">
+          <div class="column col-3 col-sm-6 is-walt-disney-records">
+  <a href="https://logotyp.us/logo/walt-disney-records/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/kvue-abc.svg" alt="KVUE ABC logo preview" />
+      <img src="/file/walt-disney-records.svg" alt="Walt Disney Records logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">KVUE ABC</h4>
+      <h4 class="card-title text-ellipsis">Walt Disney Records</h4>
       <div class="hide-sm">
         <span class="card-meta">media</span>
-        
+        <span class="label float-right">1923</span>
       </div>
     </div>
   </a>
@@ -602,11 +602,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

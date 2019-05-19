@@ -447,22 +447,6 @@
           
           
           
-          <div class="column col-3 col-sm-6 is-harvard-university">
-  <a href="https://logotyp.us/logo/harvard-university/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/harvard-university.svg" alt="Harvard University logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Harvard University</h4>
-      <div class="hide-sm">
-        <span class="card-meta">education</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
           <div class="column col-3 col-sm-6 is-northwestern-university">
   <a href="https://logotyp.us/logo/northwestern-university/" class="card">
     <div class="card-image">
@@ -471,6 +455,22 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Northwestern University</h4>
+      <div class="hide-sm">
+        <span class="card-meta">education</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-harvard-university">
+  <a href="https://logotyp.us/logo/harvard-university/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/harvard-university.svg" alt="Harvard University logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Harvard University</h4>
       <div class="hide-sm">
         <span class="card-meta">education</span>
         
@@ -493,11 +493,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

@@ -450,22 +450,6 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-pepsi">
-  <a href="https://logotyp.us/logo/pepsi/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/pepsi.svg" alt="Pepsi logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Pepsi</h4>
-      <div class="hide-sm">
-        <span class="card-meta">food</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
           <div class="column col-3 col-sm-6 is-coca-cola-life">
   <a href="https://logotyp.us/logo/coca-cola-life/" class="card">
     <div class="card-image">
@@ -482,21 +466,7 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-coca-cola-light">
-  <a href="https://logotyp.us/logo/coca-cola-light/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/coca-cola-light.svg" alt="Coca Cola Light logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Coca Cola Light</h4>
-      <div class="hide-sm">
-        <span class="card-meta">food</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
+          
           
           <div class="column col-3 col-sm-6 is-coca-cola">
   <a href="https://logotyp.us/logo/coca-cola/" class="card">
@@ -506,24 +476,6 @@
     </div>
     <div class="card-header">
       <h4 class="card-title text-ellipsis">Coca Cola</h4>
-      <div class="hide-sm">
-        <span class="card-meta">food</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-pepsico">
-  <a href="https://logotyp.us/logo/pepsico/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/pepsico.svg" alt="Pepsico logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Pepsico</h4>
       <div class="hide-sm">
         <span class="card-meta">food</span>
         
@@ -548,6 +500,54 @@
   </a>
 </div>
           
+          <div class="column col-3 col-sm-6 is-pepsi">
+  <a href="https://logotyp.us/logo/pepsi/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/pepsi.svg" alt="Pepsi logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Pepsi</h4>
+      <div class="hide-sm">
+        <span class="card-meta">food</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-coca-cola-light">
+  <a href="https://logotyp.us/logo/coca-cola-light/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/coca-cola-light.svg" alt="Coca Cola Light logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Coca Cola Light</h4>
+      <div class="hide-sm">
+        <span class="card-meta">food</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          <div class="column col-3 col-sm-6 is-pepsico">
+  <a href="https://logotyp.us/logo/pepsico/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/pepsico.svg" alt="Pepsico logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Pepsico</h4>
+      <div class="hide-sm">
+        <span class="card-meta">food</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
         </div>
       </section>
       
@@ -562,11 +562,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

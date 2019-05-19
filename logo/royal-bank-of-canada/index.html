@@ -422,21 +422,39 @@
         </h3>
         <div class="columns">
           
-          <div class="column col-3 col-sm-6 is-capital-one">
-  <a href="https://logotyp.us/logo/capital-one/" class="card">
+          <div class="column col-3 col-sm-6 is-ubs">
+  <a href="https://logotyp.us/logo/ubs/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/capital-one.svg" alt="Capital One logo preview" />
+      <img src="/file/ubs.svg" alt="UBS logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">Capital One</h4>
+      <h4 class="card-title text-ellipsis">UBS</h4>
       <div class="hide-sm">
         <span class="card-meta">banking &amp; finance</span>
-        <span class="label float-right">1994</span>
+        
       </div>
     </div>
   </a>
 </div>
+          
+          <div class="column col-3 col-sm-6 is-rbs-group">
+  <a href="https://logotyp.us/logo/rbs-group/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/rbs-group.svg" alt="RBS Group logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">RBS Group</h4>
+      <div class="hide-sm">
+        <span class="card-meta">banking &amp; finance</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
+          
           
           <div class="column col-3 col-sm-6 is-amalgamated-bank">
   <a href="https://logotyp.us/logo/amalgamated-bank/" class="card">
@@ -470,6 +488,22 @@
   </a>
 </div>
           
+          <div class="column col-3 col-sm-6 is-capital-one">
+  <a href="https://logotyp.us/logo/capital-one/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/capital-one.svg" alt="Capital One logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Capital One</h4>
+      <div class="hide-sm">
+        <span class="card-meta">banking &amp; finance</span>
+        <span class="label float-right">1994</span>
+      </div>
+    </div>
+  </a>
+</div>
+          
           <div class="column col-3 col-sm-6 is-commercial-bank-of-kuwait">
   <a href="https://logotyp.us/logo/commercial-bank-of-kuwait/" class="card">
     <div class="card-image">
@@ -486,14 +520,14 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-ubs">
-  <a href="https://logotyp.us/logo/ubs/" class="card">
+          <div class="column col-3 col-sm-6 is-visa">
+  <a href="https://logotyp.us/logo/visa/" class="card">
     <div class="card-image">
       <i class="h"></i>
-      <img src="/file/ubs.svg" alt="UBS logo preview" />
+      <img src="/file/visa.svg" alt="Visa logo preview" />
     </div>
     <div class="card-header">
-      <h4 class="card-title text-ellipsis">UBS</h4>
+      <h4 class="card-title text-ellipsis">Visa</h4>
       <div class="hide-sm">
         <span class="card-meta">banking &amp; finance</span>
         
@@ -518,40 +552,6 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-visa">
-  <a href="https://logotyp.us/logo/visa/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/visa.svg" alt="Visa logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Visa</h4>
-      <div class="hide-sm">
-        <span class="card-meta">banking &amp; finance</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
-          
-          
-          <div class="column col-3 col-sm-6 is-rbs-group">
-  <a href="https://logotyp.us/logo/rbs-group/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/rbs-group.svg" alt="RBS Group logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">RBS Group</h4>
-      <div class="hide-sm">
-        <span class="card-meta">banking &amp; finance</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
         </div>
       </section>
       
@@ -566,11 +566,14 @@
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>

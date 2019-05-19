@@ -205,6 +205,22 @@ In 1935, Edward Young designed Penguin’s famous “dignified but flippant” l
         </h3>
         <div class="columns">
           
+          <div class="column col-3 col-sm-6 is-boston-magazine">
+  <a href="https://logotyp.us/logo/boston-magazine/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/boston-magazine.svg" alt="Boston Magazine logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Boston Magazine</h4>
+      <div class="hide-sm">
+        <span class="card-meta">press</span>
+        
+      </div>
+    </div>
+  </a>
+</div>
+          
           <div class="column col-3 col-sm-6 is-san-diego-union-tribune">
   <a href="https://logotyp.us/logo/san-diego-union-tribune/" class="card">
     <div class="card-image">
@@ -237,22 +253,6 @@ In 1935, Edward Young designed Penguin’s famous “dignified but flippant” l
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-boston-magazine">
-  <a href="https://logotyp.us/logo/boston-magazine/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/boston-magazine.svg" alt="Boston Magazine logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Boston Magazine</h4>
-      <div class="hide-sm">
-        <span class="card-meta">press</span>
-        
-      </div>
-    </div>
-  </a>
-</div>
-          
           
           
         </div>
@@ -269,11 +269,14 @@ In 1935, Edward Young designed Penguin’s famous “dignified but flippant” l
           html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
+        const cb = function () {
+          navigator.clipboard.writeText(this.getAttribute('color').slice(1))
+        };
         color_parent.childNodes.forEach(function (element) {
-          element.addEventListener('click', function () {
-            navigator.clipboard.writeText(this.getAttribute('color').slice(1))
-          })
+          element.addEventListener('click', cb);
+          element.addEventListener('touchstart', cb);
         });
+
       })
   </script>
 </body>
