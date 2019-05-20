@@ -8,7 +8,7 @@
   
   
   
-  <link rel="stylesheet" href="https://logotyp.us/css/logotyp.us.min.78bf6468ecb1aa7c8965e626f7192055a23fc822cc5884a0ed4d460e933ef5ae.css" media="screen">
+  <link rel="stylesheet" href="https://logotyp.us/css/logotyp.us.min.6424a83d4e50b6a95fb29575db49bd775955e6c0cec4906733fd5dff51f3f32f.css" media="screen">
 
   
   
@@ -422,7 +422,21 @@
         </h3>
         <div class="columns">
           
-          
+          <div class="column col-3 col-sm-6 is-nova-research-labs">
+  <a href="https://logotyp.us/logo/nova-research-labs/" class="card">
+    <div class="card-image">
+      <i class="h"></i>
+      <img src="/file/nova-research-labs.svg" alt="Nova Research Labs logo preview" />
+    </div>
+    <div class="card-header">
+      <h4 class="card-title text-ellipsis">Nova Research Labs</h4>
+      <div class="hide-sm">
+        <span class="card-meta">science</span>
+        <span class="label float-right">2017</span>
+      </div>
+    </div>
+  </a>
+</div>
           
           <div class="column col-3 col-sm-6 is-srei">
   <a href="https://logotyp.us/logo/srei/" class="card">
@@ -440,21 +454,7 @@
   </a>
 </div>
           
-          <div class="column col-3 col-sm-6 is-nova-research-labs">
-  <a href="https://logotyp.us/logo/nova-research-labs/" class="card">
-    <div class="card-image">
-      <i class="h"></i>
-      <img src="/file/nova-research-labs.svg" alt="Nova Research Labs logo preview" />
-    </div>
-    <div class="card-header">
-      <h4 class="card-title text-ellipsis">Nova Research Labs</h4>
-      <div class="hide-sm">
-        <span class="card-meta">science</span>
-        <span class="label float-right">2017</span>
-      </div>
-    </div>
-  </a>
-</div>
+          
           
         </div>
       </section>
@@ -467,7 +467,7 @@
         let html = "";
         colors.slice(-8).forEach(function (element) {
           const color = (element.substring(0, 3) == 'rgb') ? rgb2hex(element) : element;
-          html += `<button class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
+          html += `<button onclick="" class="btn" style="background:${color}" color="${color}"><span>${color}</span></button>`
         });
         color_parent.innerHTML = html;
         const cb = function () {
