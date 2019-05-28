@@ -6,10 +6,19 @@
     <description>Recent content in Industry on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2019 00:33:54 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 22:48:06 -0400</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>media</title>
+      <link>https://logotyp.us/industry/media/</link>
+      <pubDate>Mon, 27 May 2019 22:48:06 -0400</pubDate>
+      
+      <guid>https://logotyp.us/industry/media/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>sports</title>
@@ -53,15 +62,6 @@
       <pubDate>Sun, 19 May 2019 00:31:07 -0400</pubDate>
       
       <guid>https://logotyp.us/industry/press/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>media</title>
-      <link>https://logotyp.us/industry/media/</link>
-      <pubDate>Wed, 15 May 2019 23:58:49 -0400</pubDate>
-      
-      <guid>https://logotyp.us/industry/media/</guid>
       <description></description>
     </item>
     
