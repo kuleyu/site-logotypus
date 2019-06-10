@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retailer on Logotyp.us</title>
+    <link>https://logotyp.us/industry/retailer/</link>
+    <description>Recent content in retailer on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2019 00:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/industry/retailer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Walmart</title>
+      <link>https://logotyp.us/logo/walmart/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/walmart/</guid>
+      <description>Walmart Inc. is an American multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores.
+ Source The Walmart History  Walmart as we know it today evolved from Sam Walton’s goals for great value and great customer service. “Mr. Sam,” as he was known, believed in leadership through service. This belief that true leadership depends on willing service was the principle on which Walmart was built, and drove the decisions the company has made for the past 50 years.</description>
+    </item>
+    
+    <item>
+      <title>eBay</title>
+      <link>https://logotyp.us/logo/ebay/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/ebay/</guid>
+      <description>eBay Inc. (/ˈiːˌbeɪ/ EE-bay) is an American multinational e-commerce corporation based in San Jose, California that facilitates consumer-to-consumer and business-to-consumer sales through its website. eBay was founded by Pierre Omidyar in the autumn of 1995, and became a notable success story of the dot-com bubble. eBay is a multibillion-dollar business with operations in about 30 countries, as of 2011. The company manages the eBay website, an online auction and shopping website in which people and businesses buy and sell a wide variety of goods and services worldwide.</description>
+    </item>
+    
+  </channel>
+</rss>

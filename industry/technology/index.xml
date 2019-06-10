@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Logotyp.us</title>
+    <link>https://logotyp.us/industry/technology/</link>
+    <description>Recent content in technology on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2019 00:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/industry/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nokia</title>
+      <link>https://logotyp.us/logo/nokia/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/nokia/</guid>
+      <description>Nokia Corporation is a Finnish multinational telecommunications, information technology, and consumer electronics company, founded in 1865. Nokia&amp;rsquo;s headquarters are in Espoo, in the greater Helsinki metropolitan area. In 2018, Nokia employed approximately 103,000 people across over 100 countries, did business in more than 130 countries, and reported annual revenues of around €23 billion. Nokia is a public limited company listed on the Helsinki Stock Exchange and New York Stock Exchange.</description>
+    </item>
+    
+  </channel>
+</rss>
