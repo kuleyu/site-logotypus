@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portugal on Logotyp.us</title>
+    <link>https://logotyp.us/country/portugal/</link>
+    <description>Recent content in Portugal on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2019 00:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/country/portugal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TAP</title>
+      <link>https://logotyp.us/logo/tap/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/tap/</guid>
+      <description>TAP Air Portugal is the flag carrier airline of Portugal, headquartered at Lisbon Airport which also serves as its hub. TAP – Transportes Aéreos Portugueses – has been a member of the Star Alliance since 2005 and operates on average 2,500 flights a week to 87 destinations in 34 countries worldwide. The company has a fleet of 90 airplanes, 68 of which were manufactured by Airbus and the remaining 22 by Embraer and ATR, operating on behalf of the regional airline TAP Express.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netherlands on Logotyp.us</title>
+    <link>https://logotyp.us/country/netherlands/</link>
+    <description>Recent content in Netherlands on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2019 00:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/country/netherlands/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>KLM</title>
+      <link>https://logotyp.us/logo/klm/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/klm/</guid>
+      <description>KLM Royal Dutch Airlines is the flag carrier airline of the Netherlands. KLM is headquartered in Amstelveen, with its hub at nearby Amsterdam Airport Schiphol. It is part of the Air France–KLM group, and a member of the SkyTeam airline alliance. Founded in 1919, KLM is the oldest airline in the world still operating under its original name and had 35,488 employees and a fleet of 119 as of 2015.</description>
+    </item>
+    
+  </channel>
+</rss>
