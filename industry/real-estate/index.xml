@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real Estate on Logotyp.us</title>
+    <link>https://logotyp.us/industry/real-estate/</link>
+    <description>Recent content in Real Estate on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2019 00:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/industry/real-estate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zillow</title>
+      <link>https://logotyp.us/logo/zillow/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/zillow/</guid>
+      <description>Zillow Group, Inc., or simply Zillow, is an online real estate database company that was founded in 2006, and was created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. In 2018, Zillow signed a partnership with Century 21 Canada to begin listing Canadian properties on the site, marking the first international country that Zillow.com supports. Barton is the current CEO of Zillow, Inc.</description>
+    </item>
+    
+  </channel>
+</rss>
