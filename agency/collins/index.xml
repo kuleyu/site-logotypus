@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COLLINS on Logotyp.us</title>
+    <link>https://logotyp.us/agency/collins/</link>
+    <description>Recent content in COLLINS on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2019 00:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/agency/collins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mailchimp</title>
+      <link>https://logotyp.us/logo/mailchimp/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/mailchimp/</guid>
+      <description>Mailchimp is a marketing automation platform and an email marketing service. The platform is a trading name of its operator, Rocket Science Group, an American company founded in 2001 by Ben Chestnut and Mark Armstrong with Dan Kurzius joining at a later date.Mailchimp began as a paid service and added a freemium option in 2009. Within a year its user base had grown from 85,000 to 450,000. By June 2014, it was sending over 10 billion emails per month on behalf of its users.</description>
+    </item>
+    
+  </channel>
+</rss>
