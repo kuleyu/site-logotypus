@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>art on Logotyp.us</title>
+    <link>https://logotyp.us/industry/art/</link>
+    <description>Recent content in art on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/industry/art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Met</title>
+      <link>https://logotyp.us/logo/the-met/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/the-met/</guid>
+      <description> The Metropolitan Museum of Art of New York City, colloquially &amp;ldquo;the Met&amp;rdquo;, is the largest art museum in the United States. With 6,953,927 visitors to its three locations in 2018, it was the third most visited art museum in the world.
+ Source Source </description>
+    </item>
+    
+  </channel>
+</rss>
