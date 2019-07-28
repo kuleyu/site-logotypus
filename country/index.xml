@@ -6,7 +6,7 @@
     <description>Recent content in Country on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/country/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>Canada</title>
       <link>https://logotyp.us/country/canada/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/canada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Germany</title>
+      <link>https://logotyp.us/country/germany/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/germany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Singapore</title>
+      <link>https://logotyp.us/country/singapore/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/singapore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>United States</title>
+      <link>https://logotyp.us/country/united-states/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/united-states/</guid>
       <description></description>
     </item>
     
@@ -62,33 +89,6 @@
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/united-kingdom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>United States</title>
-      <link>https://logotyp.us/country/united-states/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/united-states/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>United Stites</title>
-      <link>https://logotyp.us/country/united-stites/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/united-stites/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Germany</title>
-      <link>https://logotyp.us/country/germany/</link>
-      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/germany/</guid>
       <description></description>
     </item>
     
@@ -246,15 +246,6 @@
     </item>
     
     <item>
-      <title>Italia</title>
-      <link>https://logotyp.us/country/italia/</link>
-      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/italia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Malaysia</title>
       <link>https://logotyp.us/country/malaysia/</link>
       <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
@@ -278,15 +269,6 @@
       <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/portugal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Singapore</title>
-      <link>https://logotyp.us/country/singapore/</link>
-      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/singapore/</guid>
       <description></description>
     </item>
     
@@ -332,15 +314,6 @@
       <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/vietnam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spane</title>
-      <link>https://logotyp.us/country/spane/</link>
-      <pubDate>Fri, 24 May 2019 22:43:15 -0400</pubDate>
-      
-      <guid>https://logotyp.us/country/spane/</guid>
       <description></description>
     </item>
     
