@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qatar on Logotyp.us</title>
+    <link>https://logotyp.us/country/qatar/</link>
+    <description>Recent content in Qatar on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Sep 2019 00:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/country/qatar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Al Jazeera</title>
+      <link>https://logotyp.us/logo/al-jazeera/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/al-jazeera/</guid>
+      <description> Al Jazeera is a state-funded broadcaster in Doha, Qatar, owned by the Al Jazeera Media Network. Initially launched as an Arabic news and current-affairs satellite TV channel, Al Jazeera has since expanded into a network with several outlets, including the Internet and specialty television channels in multiple languages.
+ Source </description>
+    </item>
+    
+  </channel>
+</rss>

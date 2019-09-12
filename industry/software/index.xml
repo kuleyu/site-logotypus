@@ -6,10 +6,30 @@
     <description>Recent content in software on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2019 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2019 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker</title>
+      <link>https://logotyp.us/logo/docker/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/docker/</guid>
+      <description> Docker is a set of platform-as-a-service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. All containers are run by a single operating-system kernel and are thus more lightweight than virtual machines.
+ Source </description>
+    </item>
+    
+    <item>
+      <title>Jetpack</title>
+      <link>https://logotyp.us/logo/jetpack/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/jetpack/</guid>
+      <description> Jetpack is the ultimate toolkit for WordPress. It gives you everything you need to design, secure, and grow your site in one bundle.
+ Source Source </description>
+    </item>
     
     <item>
       <title>Keap</title>
@@ -67,6 +87,36 @@
       
       <guid>https://logotyp.us/logo/adobe/</guid>
       <description>Adobe Inc. is an American multinational computer software company headquartered in San Jose, California. It has historically focused upon the creation of multimedia and creativity software products, with a more recent foray towards digital marketing software. Adobe is best known for its Adobe Flash web software ecosystem, Photoshop image editing software, Acrobat Reader, the Portable Document Format (PDF), and Adobe Creative Suite, as well as its successor Adobe Creative Cloud.</description>
+    </item>
+    
+    <item>
+      <title>Affinity Designer</title>
+      <link>https://logotyp.us/logo/affinity-designer/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/affinity-designer/</guid>
+      <description> Affinity Designer is a vector graphics editor developed by Serif for macOS, iOS, and Microsoft Windows. It is part of the &amp;ldquo;Affinity trinity&amp;rdquo; alongside Affinity Photo and Affinity Publisher. Affinity Designer is available for purchase directly from the company website and in the Mac App Store, iOS App Store, and the Microsoft Store.
+ Source </description>
+    </item>
+    
+    <item>
+      <title>Affinity Photo</title>
+      <link>https://logotyp.us/logo/affinity-photo/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/affinity-photo/</guid>
+      <description> Affinity Photo is a raster graphics editor developed by Serif for macOS, iOS and Windows. It is part of the &amp;ldquo;Affinity trinity&amp;rdquo; alongside Affinity Designer and Affinity Publisher. Affinity Photo is available for purchase in the Mac App Store, iOS App Store, and the Microsoft Store.
+ Source </description>
+    </item>
+    
+    <item>
+      <title>Affinity Publisher</title>
+      <link>https://logotyp.us/logo/affinity-publisher/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/affinity-publisher/</guid>
+      <description> Affinity Publisher is a desktop publishing application developed by Serif for macOS and Microsoft Windows. It is a part of the Affinity product line along with Affinity Photo and Affinity Designer.
+ Source </description>
     </item>
     
     <item>
