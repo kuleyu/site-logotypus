@@ -12,11 +12,29 @@
     
     
     <item>
+      <title>airlines</title>
+      <link>https://logotyp.us/industry/airlines/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/airlines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>art</title>
       <link>https://logotyp.us/industry/art/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automotive</title>
+      <link>https://logotyp.us/industry/automotive/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/automotive/</guid>
       <description></description>
     </item>
     
@@ -44,6 +62,15 @@
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/clothing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>construction</title>
+      <link>https://logotyp.us/industry/construction/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/construction/</guid>
       <description></description>
     </item>
     
@@ -102,6 +129,15 @@
     </item>
     
     <item>
+      <title>food</title>
+      <link>https://logotyp.us/industry/food/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>healthcare</title>
       <link>https://logotyp.us/industry/healthcare/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -116,6 +152,33 @@
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/hospitality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>insurance</title>
+      <link>https://logotyp.us/industry/insurance/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/insurance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>internet</title>
+      <link>https://logotyp.us/industry/internet/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investments</title>
+      <link>https://logotyp.us/industry/investments/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/investments/</guid>
       <description></description>
     </item>
     
@@ -201,6 +264,24 @@
     </item>
     
     <item>
+      <title>science</title>
+      <link>https://logotyp.us/industry/science/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social media</title>
+      <link>https://logotyp.us/industry/social-media/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>software</title>
       <link>https://logotyp.us/industry/software/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -210,20 +291,38 @@
     </item>
     
     <item>
-      <title>food</title>
-      <link>https://logotyp.us/industry/food/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      <title>sports</title>
+      <link>https://logotyp.us/industry/sports/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
-      <guid>https://logotyp.us/industry/food/</guid>
+      <guid>https://logotyp.us/industry/sports/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>insurance</title>
-      <link>https://logotyp.us/industry/insurance/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      <title>sportswear</title>
+      <link>https://logotyp.us/industry/sportswear/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
-      <guid>https://logotyp.us/industry/insurance/</guid>
+      <guid>https://logotyp.us/industry/sportswear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>telecom</title>
+      <link>https://logotyp.us/industry/telecom/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/telecom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transportation</title>
+      <link>https://logotyp.us/industry/transportation/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/transportation/</guid>
       <description></description>
     </item>
     
@@ -233,24 +332,6 @@
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/personal-care/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sports</title>
-      <link>https://logotyp.us/industry/sports/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/sports/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>automotive</title>
-      <link>https://logotyp.us/industry/automotive/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/automotive/</guid>
       <description></description>
     </item>
     
@@ -309,56 +390,11 @@
     </item>
     
     <item>
-      <title>airlines</title>
-      <link>https://logotyp.us/industry/airlines/</link>
-      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/airlines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>construction</title>
-      <link>https://logotyp.us/industry/construction/</link>
-      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/construction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>interior</title>
       <link>https://logotyp.us/industry/interior/</link>
       <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/interior/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>social media</title>
-      <link>https://logotyp.us/industry/social-media/</link>
-      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/social-media/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sportswear</title>
-      <link>https://logotyp.us/industry/sportswear/</link>
-      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/sportswear/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>telecom</title>
-      <link>https://logotyp.us/industry/telecom/</link>
-      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/telecom/</guid>
       <description></description>
     </item>
     
@@ -377,15 +413,6 @@
       <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/urban/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>internet</title>
-      <link>https://logotyp.us/industry/internet/</link>
-      <pubDate>Sun, 02 Jun 2019 18:03:14 -0400</pubDate>
-      
-      <guid>https://logotyp.us/industry/internet/</guid>
       <description></description>
     </item>
     
@@ -462,29 +489,11 @@
     </item>
     
     <item>
-      <title>transportation</title>
-      <link>https://logotyp.us/industry/transportation/</link>
-      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/transportation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>awards</title>
       <link>https://logotyp.us/industry/awards/</link>
       <pubDate>Wed, 15 May 2019 22:28:04 -0400</pubDate>
       
       <guid>https://logotyp.us/industry/awards/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>science</title>
-      <link>https://logotyp.us/industry/science/</link>
-      <pubDate>Wed, 15 May 2019 22:27:48 -0400</pubDate>
-      
-      <guid>https://logotyp.us/industry/science/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X on Logotyp.us</title>
+    <link>https://logotyp.us/a-z/x/</link>
+    <description>Recent content in X on Logotyp.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Sep 2019 00:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://logotyp.us/a-z/x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>XBOX</title>
+      <link>https://logotyp.us/logo/xbox/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/xbox/</guid>
+      <description>Xbox is a video gaming brand created and owned by Microsoft. It represents a series of video game consoles developed by Microsoft, with three consoles released in the sixth, seventh, and eighth generations, respectively. The brand also represents applications (games), streaming services, an online service by the name of Xbox Live, and the development arm by the name of Xbox Game Studios. The brand was first introduced in the United States in November 2001, with the launch of the original Xbox console.</description>
+    </item>
+    
+  </channel>
+</rss>
