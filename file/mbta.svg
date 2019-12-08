@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 560 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
-    <g transform="matrix(0.627615,0,0,0.627615,123.096,43.0962)">
-        <circle cx="250" cy="250" r="239" style="fill:white;stroke:black;stroke-width:22px;"/>
-        <path d="M92,138.5L408,138.5L408,218L289.75,218L289.75,412L210.25,412L210.25,218L92,218L92,138.5Z" style="fill-rule:nonzero;"/>
-    </g>
-</svg>
+<svg clip-rule="evenodd" fill-rule="evenodd" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(.627615 0 0 .627615 123.096 43.0962)"><circle cx="250" cy="250" fill="#fff" r="239" stroke="#000" stroke-width="22"/><path d="m92 138.5h316v79.5h-118.25v194h-79.5v-194h-118.25z" fill-rule="nonzero"/></g></svg>

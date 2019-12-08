@@ -6,10 +6,19 @@
     <description>Recent content in newspaper on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Sep 2019 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/newspaper/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deseret News</title>
+      <link>https://logotyp.us/logo/deseret-news/</link>
+      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/deseret-news/</guid>
+      <description>The Deseret News is a newspaper published in Salt Lake City, Utah, United States. It is Utah&amp;rsquo;s oldest continuously published daily newspaper and has the largest Sunday circulation in the state and the second largest daily circulation behind The Salt Lake Tribune. The News is owned by Deseret News Publishing Company, a subsidiary of Deseret Management Corporation, a holding company owned by The Church of Jesus Christ of Latter-day Saints (LDS Church).</description>
+    </item>
     
     <item>
       <title>Chicago Tribune</title>

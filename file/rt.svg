@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 560 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
-    <g transform="matrix(0.9,0,0,0.9,144.1,64.1)">
-        <rect id="rect3007" x="1" y="1" width="300" height="300" style="fill:rgb(118,189,29);stroke:rgb(142,229,88);stroke-width:1px;"/>
-        <g id="g2990" transform="matrix(1,0,0,1,1.00001,67.516)">
-            <path id="polygon5" d="M299.705,39.073L299.705,50.072L259.354,50.072L259.354,127.892L208.449,127.892L208.449,50.066L168.13,50.066L168.13,39.073L299.705,39.073Z" style="fill-rule:nonzero;"/>
-            <path id="path7" d="M154.676,89.459L154.69,89.451C165.178,86.188 172.794,76.406 172.794,64.843C172.794,50.612 161.259,39.076 147.028,39.076L147.122,39.073L39.004,39.073L39.008,127.895L89.927,127.895L89.927,90.021L104.75,90.021L131.292,127.895L184.438,127.89L154.676,89.459ZM106.474,79.906L106.474,79.917L89.932,79.917L89.932,49.193L106.474,49.193L106.474,49.186C114.956,49.186 121.834,56.062 121.834,64.545C121.834,73.029 114.956,79.906 106.474,79.906Z" style="fill-rule:nonzero;"/>
-        </g>
-    </g>
-</svg>
+<svg clip-rule="evenodd" fill-rule="evenodd" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg"><path d="m145 65h270v270h-270z" fill="#76bd1d" stroke="#8ee558" stroke-width=".9"/><g fill-rule="nonzero" transform="matrix(.9 0 0 .9 145.000009 124.8644)"><path d="m299.705 39.073v10.999h-40.351v77.82h-50.905v-77.826h-40.319v-10.993z"/><path d="m154.676 89.459.014-.008c10.488-3.263 18.104-13.045 18.104-24.608 0-14.231-11.535-25.767-25.766-25.767l.094-.003h-108.118l.004 88.822h50.919v-37.874h14.823l26.542 37.874 53.146-.005zm-48.202-9.553v.011h-16.542v-30.724h16.542v-.007c8.482 0 15.36 6.876 15.36 15.359 0 8.484-6.878 15.361-15.36 15.361z"/></g></svg>
