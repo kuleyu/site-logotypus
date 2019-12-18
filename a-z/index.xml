@@ -6,10 +6,19 @@
     <description>Recent content in A-Z on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2019 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2019 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/a-z/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R</title>
+      <link>https://logotyp.us/a-z/r/</link>
+      <pubDate>Mon, 16 Dec 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/a-z/r/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A</title>
@@ -44,15 +53,6 @@
       <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/a-z/d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>H</title>
-      <link>https://logotyp.us/a-z/h/</link>
-      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/a-z/h/</guid>
       <description></description>
     </item>
     
@@ -107,15 +107,6 @@
       <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/a-z/o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://logotyp.us/a-z/r/</link>
-      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/a-z/r/</guid>
       <description></description>
     </item>
     
@@ -197,6 +188,15 @@
       <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/a-z/e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>h</title>
+      <link>https://logotyp.us/a-z/h/</link>
+      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/a-z/h/</guid>
       <description></description>
     </item>
     
