@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: logotyp.us
+Token: 664ac35dfef591d084e9b36bddacba3739a807e5b0cc90d4748ddb1779bb23ac
