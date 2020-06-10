@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Y on Logotyp.us</title>
@@ -111,16 +111,6 @@
     </item>
     
     <item>
-      <title>YMCA</title>
-      <link>https://logotyp.us/logo/ymca/</link>
-      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/ymca/</guid>
-      <description> YMCA, sometimes regionally called the Y, is a worldwide organisation based in Geneva, Switzerland, with more than 64 million beneficiaries from 120 national associations. It was founded on 6 June 1844 by Sir George Williams in London, originally as the Young Men&amp;rsquo;s Christian Association and aims to put Christian principles into practice by developing a healthy &amp;ldquo;body, mind, and spirit&amp;rdquo;.
- Source Source </description>
-    </item>
-    
-    <item>
       <title>Yandex</title>
       <link>https://logotyp.us/logo/yandex/</link>
       <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
@@ -167,6 +157,16 @@
       <guid>https://logotyp.us/logo/yandex-music/</guid>
       <description> Yandex Music» is a music streaming service developed by Yandex. Users select musical compositions, albums, collections of musical tracks to stream to their device on demand and receive personalized recommendations. The service is also available as a mobile app with versions compatible with iOS, Android. Service is available in Russia, Belarus, Kyrgyzstan, Kazakhstan, Armenia, Israel. Paid subscription service is available in all the other countries of the world.
  Source </description>
+    </item>
+    
+    <item>
+      <title>YMCA</title>
+      <link>https://logotyp.us/logo/ymca/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/ymca/</guid>
+      <description> YMCA, sometimes regionally called the Y, is a worldwide organisation based in Geneva, Switzerland, with more than 64 million beneficiaries from 120 national associations. It was founded on 6 June 1844 by Sir George Williams in London, originally as the Young Men&amp;rsquo;s Christian Association and aims to put Christian principles into practice by developing a healthy &amp;ldquo;body, mind, and spirit&amp;rdquo;.
+ Source Source </description>
     </item>
     
   </channel>

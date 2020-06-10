@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Italy on Logotyp.us</title>
@@ -6,10 +6,29 @@
     <description>Recent content in Italy on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Sep 2019 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/country/italy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ferrari</title>
+      <link>https://logotyp.us/logo/ferrari/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/ferrari/</guid>
+      <description>Ferrari is an Italian luxury sports car manufacturer based in Maranello. Founded by Enzo Ferrari in 1939 out of Alfa Romeo&amp;rsquo;s race division as Auto Avio Costruzioni, the company built its first car in 1940. However, the company&amp;rsquo;s inception as an auto manufacturer is usually recognized in 1947, when the first Ferrari-badged car was completed.
+ In 2014 Ferrari was rated the world&amp;rsquo;s most powerful brand by Brand Finance. In June 2018, the 1964 250 GTO became the most expensive car in history, setting an all-time record selling price of $70 million.</description>
+    </item>
+    
+    <item>
+      <title>Maserati</title>
+      <link>https://logotyp.us/logo/maserati/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/maserati/</guid>
+      <description>Maserati is an Italian luxury vehicle manufacturer. Established on 1 December 1914, in Bologna, Italy, the company&amp;rsquo;s headquarters are now in Modena, and its emblem is a trident. The company has been owned by FIAT Chrysler Automobiles (FCA) and FCA&amp;rsquo;s Italian predecessor FIAT S.p.A. since 1993. Maserati was initially associated with Ferrari. In May 2014, due to ambitious plans and product launches, Maserati sold a record of over 3,000 cars in one month.</description>
+    </item>
     
     <item>
       <title>Eni</title>

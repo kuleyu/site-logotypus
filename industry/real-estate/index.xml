@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>real estate on Logotyp.us</title>
@@ -6,10 +6,20 @@
     <description>Recent content in real estate on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/real-estate/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Freddie Mac</title>
+      <link>https://logotyp.us/logo/freddie-mac/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/freddie-mac/</guid>
+      <description>The Federal Home Loan Mortgage Corporation (FHLMC), known as Freddie Mac, is a public government-sponsored enterprise (GSE), headquartered in Tysons Corner, Virginia.[3][4] Freddie Mac is ranked No. 38 on the 2018 Fortune 500 list of the largest United States corporations by total revenue.
+ The FHLMC was created in 1970 to expand the secondary market for mortgages in the US. Along with the Federal National Mortgage Association (Fannie Mae), Freddie Mac buys mortgages on the secondary market, pools them, and sells them as a mortgage-backed security to investors on the open market.</description>
+    </item>
     
     <item>
       <title>Compass</title>
@@ -66,7 +76,7 @@
       <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/logo/remax/</guid>
-      <description> RE/MAX, short for &amp;ldquo; Real Estate Maximums,&amp;rdquo; is an American international real estate company that operates through a franchise system. Up until 2013, the company held the number one market share in the United States and Canada since 1999, as measured by residential transaction sides. RE/MAX has more than 100,000 agents in 6,800 offices. RE/MAX operates in about 100 countries.
+      <description> RE/MAX, short for &amp;quot; Real Estate Maximums,&amp;rdquo; is an American international real estate company that operates through a franchise system. Up until 2013, the company held the number one market share in the United States and Canada since 1999, as measured by residential transaction sides. RE/MAX has more than 100,000 agents in 6,800 offices. RE/MAX operates in about 100 countries.
  Source Source </description>
     </item>
     

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>education on Logotyp.us</title>
@@ -6,10 +6,30 @@
     <description>Recent content in education on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/education/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Duolingo</title>
+      <link>https://logotyp.us/logo/duolingo/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/duolingo/</guid>
+      <description>Duolingo is an American platform that includes a language-learning website and mobile app, as well as a digital language-proficiency assessment exam. The company uses the freemium model; the app and the website are accessible without charge, although Duolingo also offers a premium service for a fee.
+ As of November 2019 the language-learning website and app offer 94 different language courses in 23 languages. The app has over 300 million registered users across the world.</description>
+    </item>
+    
+    <item>
+      <title>OReilly Media</title>
+      <link>https://logotyp.us/logo/oreilly-media/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/oreilly-media/</guid>
+      <description>O&amp;rsquo;Reilly Media (formerly O&amp;rsquo;Reilly &amp;amp; Associates) is an American learning company established by Tim O&amp;rsquo;Reilly that publishes books, produces tech conferences, and provides an online learning platform. Their distinctive brand features a woodcut of an animal on many of their book covers.
+ Source About O’Reilly O’Reilly’s mission is to change the world by sharing the knowledge of innovators. For over 40 years, we’ve inspired companies and individuals to do new things—and do things better—by providing them with the skills and understanding that’s necessary for success.</description>
+    </item>
     
     <item>
       <title>St Peter University</title>
@@ -51,16 +71,6 @@
     </item>
     
     <item>
-      <title>BU</title>
-      <link>https://logotyp.us/logo/bu/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/bu/</guid>
-      <description> Boston University (commonly referred to as BU) is a private research university in Boston, Massachusetts. The university is nonsectarian, but has been historically affiliated with the United Methodist Church.
- Source </description>
-    </item>
-    
-    <item>
       <title>Brown</title>
       <link>https://logotyp.us/logo/brown/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -71,12 +81,12 @@
     </item>
     
     <item>
-      <title>CSU</title>
-      <link>https://logotyp.us/logo/csu/</link>
+      <title>BU</title>
+      <link>https://logotyp.us/logo/bu/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
-      <guid>https://logotyp.us/logo/csu/</guid>
-      <description> Colorado State University (also referred to as Colorado State, State, and CSU) is a public research university in Fort Collins, Colorado. The university is the state&amp;rsquo;s land grant university and the flagship university of the Colorado State University System.
+      <guid>https://logotyp.us/logo/bu/</guid>
+      <description> Boston University (commonly referred to as BU) is a private research university in Boston, Massachusetts. The university is nonsectarian, but has been historically affiliated with the United Methodist Church.
  Source </description>
     </item>
     
@@ -96,6 +106,16 @@
       
       <guid>https://logotyp.us/logo/course-hero/</guid>
       <description>Course Hero is an education technology website company based in Redwood City, California, which operates an online learning platform for students to access course-specific study resources contributed by a community of students and educators. The crowdsourced learning platform contains practice problems, study guides, infographics, class notes, step-by-step explanations, essays, lab reports, videos, user-submitted questions paired with answers from tutors, and original materials created and uploaded by educators. Users either buy a subscription or upload original documents to receive unlocks that are used to view and download full Course Hero documents.</description>
+    </item>
+    
+    <item>
+      <title>CSU</title>
+      <link>https://logotyp.us/logo/csu/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/csu/</guid>
+      <description> Colorado State University (also referred to as Colorado State, State, and CSU) is a public research university in Fort Collins, Colorado. The university is the state&amp;rsquo;s land grant university and the flagship university of the Colorado State University System.
+ Source </description>
     </item>
     
     <item>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>electronics on Logotyp.us</title>
@@ -6,10 +6,67 @@
     <description>Recent content in electronics on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/electronics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTC</title>
+      <link>https://logotyp.us/logo/htc/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/htc/</guid>
+      <description>HTC Corporation (High Tech Computer Corporation, literally Hongda International Electronics Co., Ltd.) is a Taiwanese consumer electronics company headquartered in Xindian District, New Taipei City, Taiwan. Founded in 1997, HTC began as an original design manufacturer and original equipment manufacturer, designing and manufacturing laptop computers.
+ After initially making smartphones based mostly on Windows Mobile, HTC became a co-founding member of the Open Handset Alliance, a group of handset manufacturers and mobile network operators dedicated to the development of the Android mobile operating system.</description>
+    </item>
+    
+    <item>
+      <title>Juniper Networks</title>
+      <link>https://logotyp.us/logo/juniper-networks/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/juniper-networks/</guid>
+      <description>Juniper Networks, Inc. is an American multinational corporation headquartered in Sunnyvale, California. The company develops and markets networking products, including routers, switches, network management software, network security products, and software-defined networking technology.
+ The company was founded in 1996 by Pradeep Sindhu, with Scott Kriens as the first CEO, who remained until September 2008. Kriens has been credited with much of Juniper&amp;rsquo;s early market success. It received several rounds of funding from venture capitalists and telecommunications companies before going public in 1999.</description>
+    </item>
+    
+    <item>
+      <title>Kodak</title>
+      <link>https://logotyp.us/logo/kodak/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/kodak/</guid>
+      <description>The Eastman Kodak Company (referred to simply as Kodak /ˈkoʊdæk/) is an American technology company that produces camera-related products with its historic basis on photography. The company is headquartered in Rochester, New York, and is incorporated in New Jersey. Kodak provides packaging, functional printing, graphic communications and professional services for businesses around the world. Its main business segments are Print Systems, Enterprise Inkjet Systems, Micro 3D Printing and Packaging, Software and Solutions, and Consumer and Film.</description>
+    </item>
+    
+    <item>
+      <title>Lenovo</title>
+      <link>https://logotyp.us/logo/lenovo/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/lenovo/</guid>
+      <description>Lenovo Group Limited, often shortened to Lenovo (/lɛˈnoʊvoʊ/ leh-NOH-voh), is a Chinese multinational technology company that is headquartered in Beijing. The company designs, develops, manufactures, and sells personal computers, tablet computers, smartphones, workstations, servers, electronic storage devices, IT management software, and smart televisions. Lenovo is the world&amp;rsquo;s largest personal computer vendor by unit sales, as of March 2019. It markets the ThinkPad and ThinkBook business lines of notebook computers; IdeaPad, Yoga, and Legion consumer lines of notebook laptops; and the IdeaCentre and ThinkCentre lines of desktops.</description>
+    </item>
+    
+    <item>
+      <title>Rakuten</title>
+      <link>https://logotyp.us/logo/rakuten/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/rakuten/</guid>
+      <description>Rakuten, Inc. (楽天株式会社, Rakuten Kabushiki-gaisha) is a Japanese electronic commerce and online retailing company based in Tokyo, founded in 1997 by Japanese businessman Hiroshi Mikitani. Its B2B2C E-Commerce platform Rakuten Ichiba is the largest e-commerce site in Japan and among the world&amp;rsquo;s largest by sales. The company operates Japan&amp;rsquo;s biggest Internet bank and number one credit card company by transaction value. It also offers e-commerce, fintech, digital content and communications services to over one billion members around the world, and operates in 29 countries and regions.</description>
+    </item>
+    
+    <item>
+      <title>Acer</title>
+      <link>https://logotyp.us/logo/acer/</link>
+      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/acer/</guid>
+      <description> Acer Inc. (/ˈeɪsər/ AY-sər; Chinese: 宏碁股份有限公司; pinyin: Hóngqí Gǔfèn Yǒuxiàn Gōngsī, lit. Hongqi Corporation Ltd.; commonly known as Acer and stylized as acer) is a Taiwanese multinational hardware and electronics corporation, specializing in advanced electronics technology, headquartered in Xizhi, New Taipei City, Taiwan. Acer&amp;rsquo;s products include desktop PCs, laptop PCs (clamshells, 2-in-1s, convertibles and Chromebooks), tablets, servers, storage devices, virtual reality devices, displays, smartphones and peripherals.
+ Source </description>
+    </item>
     
     <item>
       <title>AMD</title>
@@ -27,16 +84,6 @@
       
       <guid>https://logotyp.us/logo/arm/</guid>
       <description>Arm Holdings (stylized as arm) is a global semiconductor and software design company, owned by the Japanese SoftBank Group and its Vision Fund. With its global headquarters in Cambridgeshire, in the United Kingdom, and its US headquarters in San Jose, California, its primary business is in the design of ARM processors (CPUs), although it also designs software development tools under the DS-5, RealView and Keil brands, as well as systems and platforms, system-on-a-chip (SoC) infrastructure and software.</description>
-    </item>
-    
-    <item>
-      <title>Acer</title>
-      <link>https://logotyp.us/logo/acer/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/acer/</guid>
-      <description> Acer Inc. (/ˈeɪsər/ AY-sər; Chinese: 宏碁股份有限公司; pinyin: Hóngqí Gǔfèn Yǒuxiàn Gōngsī, lit. Hongqi Corporation Ltd.; commonly known as Acer and stylized as acer) is a Taiwanese multinational hardware and electronics corporation, specializing in advanced electronics technology, headquartered in Xizhi, New Taipei City, Taiwan. Acer&amp;rsquo;s products include desktop PCs, laptop PCs (clamshells, 2-in-1s, convertibles and Chromebooks), tablets, servers, storage devices, virtual reality devices, displays, smartphones and peripherals.
- Source </description>
     </item>
     
     <item>
@@ -268,7 +315,7 @@
       <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/logo/olympus/</guid>
-      <description> Olympus Corporation (オリンパス株式会社 Orinpasu Kabushiki-gaisha) is a Japanese manufacturer of optics and reprography products. Olympus was established on 12 October 1919, initially specializing in microscopes and thermometers. Olympus holds roughly a 70-percent share of the global endoscope market, estimated to be worth approximately US\$2.5 billion. Its global headquarters are located in Shinjuku, Tokyo, Japan.
+      <description> Olympus Corporation (オリンパス株式会社 Orinpasu Kabushiki-gaisha) is a Japanese manufacturer of optics and reprography products. Olympus was established on 12 October 1919, initially specializing in microscopes and thermometers. Olympus holds roughly a 70-percent share of the global endoscope market, estimated to be worth approximately US$2.5 billion. Its global headquarters are located in Shinjuku, Tokyo, Japan.
  Source </description>
     </item>
     
@@ -312,15 +359,6 @@
     </item>
     
     <item>
-      <title>SONY</title>
-      <link>https://logotyp.us/logo/sony/</link>
-      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/sony/</guid>
-      <description>Sony Corporation is a Japanese multinational conglomerate corporation headquartered in Kōnan, Minato, Tokyo. Its diversified business includes consumer and professional electronics, gaming, entertainment and financial services. The company owns the largest music entertainment business in the world the largest video game console business and one of the largest video game publishing businesses, and is one of the leading manufacturers of electronic products for the consumer and professional markets, and a leading player in the film and television entertainment industry.</description>
-    </item>
-    
-    <item>
       <title>Sanyo</title>
       <link>https://logotyp.us/logo/sanyo/</link>
       <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
@@ -338,6 +376,15 @@
       <guid>https://logotyp.us/logo/seiko/</guid>
       <description> Seiko Holdings Corporation is a Japanese holding company that has subsidiaries which manufactures and sells watches, clocks, electronic devices, semiconductors, jewelries, and optical products.
  Source </description>
+    </item>
+    
+    <item>
+      <title>SONY</title>
+      <link>https://logotyp.us/logo/sony/</link>
+      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/sony/</guid>
+      <description>Sony Corporation is a Japanese multinational conglomerate corporation headquartered in Kōnan, Minato, Tokyo. Its diversified business includes consumer and professional electronics, gaming, entertainment and financial services. The company owns the largest music entertainment business in the world the largest video game console business and one of the largest video game publishing businesses, and is one of the leading manufacturers of electronic products for the consumer and professional markets, and a leading player in the film and television entertainment industry.</description>
     </item>
     
     <item>

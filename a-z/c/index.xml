@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C on Logotyp.us</title>
@@ -6,10 +6,19 @@
     <description>Recent content in C on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 22:22:10 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/a-z/c/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Capri</title>
+      <link>https://logotyp.us/logo/capri/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/capri/</guid>
+      <description>Capri Holdings Limited (formerly Michael Kors Holdings Limited) is a multinational fashion holding company, incorporated in the British Virgin Islands, with principal executive offices in London and operational headquarters in New York. It was founded in 1981 by American designer Michael Kors. The company sells clothes, shoes, watches, handbags, and other accessories. Michael Kors handbags have been a popular fashion trend among women of all ages. In 2015, the company had more than 550 stores and over 1500 in-store boutiques in various countries.</description>
+    </item>
     
     <item>
       <title>CDC</title>
@@ -17,18 +26,8 @@
       <pubDate>Sat, 04 Apr 2020 22:22:10 -0400</pubDate>
       
       <guid>https://logotyp.us/logo/cdc/</guid>
-      <description>CDC is responding to the novel coronavirus outbreak.
- The Centers for Disease Control and Prevention is the leading national public health institute of the United States. The CDC is a United States federal agency under the Department of Health and Human Services and is headquartered in Atlanta, Georgia.
+      <description>CDC is responding to the novel coronavirus outbreak. The Centers for Disease Control and Prevention is the leading national public health institute of the United States. The CDC is a United States federal agency under the Department of Health and Human Services and is headquartered in Atlanta, Georgia.
  </description>
-    </item>
-    
-    <item>
-      <title>CBS</title>
-      <link>https://logotyp.us/logo/cbs/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/cbs/</guid>
-      <description>CBS (an initialism of the network&amp;rsquo;s former name, the Columbia Broadcasting System) is an American English-language commercial broadcast television and radio network that is the flagship property of the CBS Entertainment Group division of ViacomCBS. The company is headquartered at the CBS Building in New York City with major production facilities and operations in New York City (at the CBS Broadcast Center) and Los Angeles (at CBS Television City and the CBS Studio Center).</description>
     </item>
     
     <item>
@@ -66,6 +65,15 @@
       
       <guid>https://logotyp.us/logo/cartoon-network/</guid>
       <description>Cartoon Network is an American pay television channel owned by Warner Bros. Entertainment, a division of AT&amp;amp;T&amp;rsquo;s WarnerMedia. The channel was launched on October 1, 1992, and primarily broadcasts animated television series, mostly children&amp;rsquo;s programming, ranging from action to animated comedy. It operates usually from 6:00 AM to 8:00 PM (ET/PT) and is targeted at children between ages 7 and 15. Its overnight daypart block Adult Swim is aimed at adults and is treated as a separate entity for promotional purposes and as a separate channel by Nielsen for ratings purposes.</description>
+    </item>
+    
+    <item>
+      <title>CBS</title>
+      <link>https://logotyp.us/logo/cbs/</link>
+      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/cbs/</guid>
+      <description>CBS (an initialism of the network&amp;rsquo;s former name, the Columbia Broadcasting System) is an American English-language commercial broadcast television and radio network that is the flagship property of the CBS Entertainment Group division of ViacomCBS. The company is headquartered at the CBS Building in New York City with major production facilities and operations in New York City (at the CBS Broadcast Center) and Los Angeles (at CBS Television City and the CBS Studio Center).</description>
     </item>
     
     <item>
@@ -205,6 +213,15 @@
     </item>
     
     <item>
+      <title>Cardinal Health</title>
+      <link>https://logotyp.us/logo/cardinal-health/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/cardinal-health/</guid>
+      <description>Cardinal Health, Inc. is an American multinational health care services company, and the 14th highest revenue generating company in the United States. Its headquarters are based in Dublin, Ohio and Dublin, Ireland (EMEA). The company specializes in distribution of pharmaceuticals and medical products, serving more than 100,000 locations. The company also manufactures medical and surgical products, including gloves, surgical apparel and fluid management products. In addition, it operates the largest network of radiopharmacies in the U.</description>
+    </item>
+    
+    <item>
       <title>CBC News</title>
       <link>https://logotyp.us/logo/cbc-news/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -234,6 +251,15 @@
     </item>
     
     <item>
+      <title>Chevron</title>
+      <link>https://logotyp.us/logo/chevron/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/chevron/</guid>
+      <description>Chevron Corporation is an American multinational energy corporation. One of the successor companies of Standard Oil, it is headquartered in San Ramon, California, and active in more than 180 countries. Chevron is engaged in every aspect of the oil, natural gas, and geothermal energy industries, including hydrocarbon exploration and production; refining, marketing and transport; chemicals manufacturing and sales; and power generation. Chevron is one of the world&amp;rsquo;s largest oil companies; as of 2019, it ranked eleventh in the Fortune 500 list of the top US closely held and public corporations and 28th on the Fortune Global 500 list of the top 500 corporations worldwide.</description>
+    </item>
+    
+    <item>
       <title>CI</title>
       <link>https://logotyp.us/logo/ci/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -241,6 +267,26 @@
       <guid>https://logotyp.us/logo/ci/</guid>
       <description> Conservation International (CI) is an American nonprofit environmental organization headquartered in Arlington, Virginia. Its goal is to protect nature as a source of food, fresh water, livelihoods and a stable climate.
  Source Source </description>
+    </item>
+    
+    <item>
+      <title>Cirque du Soleil</title>
+      <link>https://logotyp.us/logo/cirque-du-soleil/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/cirque-du-soleil/</guid>
+      <description> Cirque du Soleil (French: [sɪʁk dzy sɔ.lɛj], &amp;ldquo;Circus of the Sun&amp;rdquo; or &amp;ldquo;Sun Circus&amp;rdquo;) is a Canadian (Quebecois) entertainment company and the largest theatrical producer in the world. Based in Montreal, Quebec, Canada, and located in the inner-city area of Saint-Michel, it was founded in Baie-Saint-Paul on 7 July 1984, by two former street performers, Guy Laliberté and Gilles Ste-Croix.
+ Source </description>
+    </item>
+    
+    <item>
+      <title>Citizens</title>
+      <link>https://logotyp.us/logo/citizens/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/citizens/</guid>
+      <description> Citizens Financial Group, Inc. is an American bank headquartered in Providence, Rhode Island, which operates in the states of Connecticut, Delaware, Maine, Massachusetts, Michigan, New Hampshire, New Jersey, New York, Ohio, Pennsylvania, Rhode Island and Vermont.
+ Source </description>
     </item>
     
     <item>
@@ -322,64 +368,6 @@
     </item>
     
     <item>
-      <title>CSU</title>
-      <link>https://logotyp.us/logo/csu/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/csu/</guid>
-      <description> Colorado State University (also referred to as Colorado State, State, and CSU) is a public research university in Fort Collins, Colorado. The university is the state&amp;rsquo;s land grant university and the flagship university of the Colorado State University System.
- Source </description>
-    </item>
-    
-    <item>
-      <title>CTV</title>
-      <link>https://logotyp.us/logo/ctv/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/ctv/</guid>
-      <description> CTV News Channel is a Canadian discretionary service that is owned by Bell Media (a wholly owned subsidiary of Bell Canada). It broadcasts national and international news headlines, breaking news, and information. The channel is headquartered at 9 Channel Nine Court in the Agincourt neighbourhood of Scarborough in the city of Toronto.
- Source </description>
-    </item>
-    
-    <item>
-      <title>Cardinal Health</title>
-      <link>https://logotyp.us/logo/cardinal-health/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/cardinal-health/</guid>
-      <description>Cardinal Health, Inc. is an American multinational health care services company, and the 14th highest revenue generating company in the United States. Its headquarters are based in Dublin, Ohio and Dublin, Ireland (EMEA). The company specializes in distribution of pharmaceuticals and medical products, serving more than 100,000 locations. The company also manufactures medical and surgical products, including gloves, surgical apparel and fluid management products. In addition, it operates the largest network of radiopharmacies in the U.</description>
-    </item>
-    
-    <item>
-      <title>Chevron</title>
-      <link>https://logotyp.us/logo/chevron/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/chevron/</guid>
-      <description>Chevron Corporation is an American multinational energy corporation. One of the successor companies of Standard Oil, it is headquartered in San Ramon, California, and active in more than 180 countries. Chevron is engaged in every aspect of the oil, natural gas, and geothermal energy industries, including hydrocarbon exploration and production; refining, marketing and transport; chemicals manufacturing and sales; and power generation. Chevron is one of the world&amp;rsquo;s largest oil companies; as of 2019, it ranked eleventh in the Fortune 500 list of the top US closely held and public corporations and 28th on the Fortune Global 500 list of the top 500 corporations worldwide.</description>
-    </item>
-    
-    <item>
-      <title>Cirque du Soleil</title>
-      <link>https://logotyp.us/logo/cirque-du-soleil/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/cirque-du-soleil/</guid>
-      <description> Cirque du Soleil (French: [sɪʁk dzy sɔ.lɛj], &amp;ldquo;Circus of the Sun&amp;rdquo; or &amp;ldquo;Sun Circus&amp;rdquo;) is a Canadian (Quebecois) entertainment company and the largest theatrical producer in the world. Based in Montreal, Quebec, Canada, and located in the inner-city area of Saint-Michel, it was founded in Baie-Saint-Paul on 7 July 1984, by two former street performers, Guy Laliberté and Gilles Ste-Croix.
- Source </description>
-    </item>
-    
-    <item>
-      <title>Citizens</title>
-      <link>https://logotyp.us/logo/citizens/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/citizens/</guid>
-      <description> Citizens Financial Group, Inc. is an American bank headquartered in Providence, Rhode Island, which operates in the states of Connecticut, Delaware, Maine, Massachusetts, Michigan, New Hampshire, New Jersey, New York, Ohio, Pennsylvania, Rhode Island and Vermont.
- Source </description>
-    </item>
-    
-    <item>
       <title>Conduent</title>
       <link>https://logotyp.us/logo/conduent/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -441,6 +429,26 @@
       
       <guid>https://logotyp.us/logo/crocs/</guid>
       <description> Crocs, Inc. is an American company, based in Niwot, Colorado, that distributes and once manufactured a foam clog shoe.
+ Source </description>
+    </item>
+    
+    <item>
+      <title>CSU</title>
+      <link>https://logotyp.us/logo/csu/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/csu/</guid>
+      <description> Colorado State University (also referred to as Colorado State, State, and CSU) is a public research university in Fort Collins, Colorado. The university is the state&amp;rsquo;s land grant university and the flagship university of the Colorado State University System.
+ Source </description>
+    </item>
+    
+    <item>
+      <title>CTV</title>
+      <link>https://logotyp.us/logo/ctv/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/ctv/</guid>
+      <description> CTV News Channel is a Canadian discretionary service that is owned by Bell Media (a wholly owned subsidiary of Bell Canada). It broadcasts national and international news headlines, breaking news, and information. The channel is headquartered at 9 Channel Nine Court in the Agincourt neighbourhood of Scarborough in the city of Toronto.
  Source </description>
     </item>
     
@@ -633,15 +641,6 @@
     </item>
     
     <item>
-      <title>CVS</title>
-      <link>https://logotyp.us/logo/cvs/</link>
-      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/cvs/</guid>
-      <description>CVS Pharmacy is a subsidiary of the American retail and health care company CVS Health, headquartered in Woonsocket, Rhode Island. It was also known as, and originally named, the Consumer Value Store and was founded in Lowell, Massachusetts, in 1963. The chain was owned by its original holding company Melville Corporation since its inception until its current parent company (CVS Health) was spun off into its own company in 1996.</description>
-    </item>
-    
-    <item>
       <title>Casio</title>
       <link>https://logotyp.us/logo/casio/</link>
       <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
@@ -678,6 +677,15 @@
       <guid>https://logotyp.us/logo/codecademy/</guid>
       <description> Codecademy is an online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, JavaScript (jQuery, AngularJS, React.js), Ruby, SQL, C++, and Sass, as well as markup languages HTML and CSS. The site also offers a paid &amp;ldquo;pro&amp;rdquo; option that gives users access to a personalized learning plan, quizzes, realistic projects, and live help from advisors.[
  Source Source </description>
+    </item>
+    
+    <item>
+      <title>CVS</title>
+      <link>https://logotyp.us/logo/cvs/</link>
+      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/cvs/</guid>
+      <description>CVS Pharmacy is a subsidiary of the American retail and health care company CVS Health, headquartered in Woonsocket, Rhode Island. It was also known as, and originally named, the Consumer Value Store and was founded in Lowell, Massachusetts, in 1963. The chain was owned by its original holding company Melville Corporation since its inception until its current parent company (CVS Health) was spun off into its own company in 1996.</description>
     </item>
     
     <item>
@@ -851,7 +859,7 @@ Chicago IVF’s offices and state-of-the-art facilities are conveniently located
       
       <guid>https://logotyp.us/logo/capital-one/</guid>
       <description>About Capital One (from capitalone.com)
-Capital One Financial Corporation is a financial holding company whose subsidiaries, which include Capital One, N.A., and Capital One Bank (USA), N.A., had $249.8 billion in deposits and $372.5 billion in total assets as of December 31, 2018. Headquartered in McLean, Virginia, Capital One offers a broad spectrum of financial products and services to consumers, small businesses and commercial clients through a variety of channels.</description>
+Capital One Financial Corporation is a financial holding company whose subsidiaries, which include Capital One, N.A., and Capital One Bank (USA), N.A., had $249.8 billion in deposits and $372.5 billion in total assets as of December 31, 2018. Headquartered in McLean, Virginia, Capital One offers a broad spectrum of financial products and services to consumers, small businesses and commercial clients through a variety of channels. Capital One, N.</description>
     </item>
     
     <item>
@@ -899,7 +907,7 @@ Capital One Financial Corporation is a financial holding company whose subsidiar
       <guid>https://logotyp.us/logo/citi/</guid>
       <description>History of the Citi Group logo (from pentagram.com and medium.com)
 Citi Group  In Spring of 1998, Citi announced a merger with Travelers Insurance. At the time, it was the largest merger in the world and the brands needed to be unified to reflect that.
-After a brief negotiation the budget for the brand overhaul was pegged at almost $10m, with the design of the logo itself making up $1.</description>
+After a brief negotiation the budget for the brand overhaul was pegged at almost $10m, with the design of the logo itself making up $1.5m of that.</description>
     </item>
     
     <item>

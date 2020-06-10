@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taiwan on Logotyp.us</title>
@@ -6,10 +6,20 @@
     <description>Recent content in Taiwan on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/country/taiwan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTC</title>
+      <link>https://logotyp.us/logo/htc/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/htc/</guid>
+      <description>HTC Corporation (High Tech Computer Corporation, literally Hongda International Electronics Co., Ltd.) is a Taiwanese consumer electronics company headquartered in Xindian District, New Taipei City, Taiwan. Founded in 1997, HTC began as an original design manufacturer and original equipment manufacturer, designing and manufacturing laptop computers.
+ After initially making smartphones based mostly on Windows Mobile, HTC became a co-founding member of the Open Handset Alliance, a group of handset manufacturers and mobile network operators dedicated to the development of the Android mobile operating system.</description>
+    </item>
     
     <item>
       <title>Acer</title>

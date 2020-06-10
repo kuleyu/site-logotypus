@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Industry on Logotyp.us</title>
@@ -6,10 +6,253 @@
     <description>Recent content in Industry on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 22:22:10 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>aerospace</title>
+      <link>https://logotyp.us/industry/aerospace/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/aerospace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>airlines</title>
+      <link>https://logotyp.us/industry/airlines/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/airlines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automotive</title>
+      <link>https://logotyp.us/industry/automotive/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/automotive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>banking &amp; finance</title>
+      <link>https://logotyp.us/industry/banking-finance/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/banking-finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>https://logotyp.us/industry/education/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electrical equipment</title>
+      <link>https://logotyp.us/industry/electrical-equipment/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/electrical-equipment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electronics</title>
+      <link>https://logotyp.us/industry/electronics/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entertaiment</title>
+      <link>https://logotyp.us/industry/entertaiment/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/entertaiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fashion</title>
+      <link>https://logotyp.us/industry/fashion/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/fashion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>food</title>
+      <link>https://logotyp.us/industry/food/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>insurance</title>
+      <link>https://logotyp.us/industry/insurance/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/insurance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>internet</title>
+      <link>https://logotyp.us/industry/internet/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>liquors</title>
+      <link>https://logotyp.us/industry/liquors/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/liquors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manufacturing</title>
+      <link>https://logotyp.us/industry/manufacturing/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/manufacturing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>media</title>
+      <link>https://logotyp.us/industry/media/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>https://logotyp.us/industry/news/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nonprofit</title>
+      <link>https://logotyp.us/industry/nonprofit/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/nonprofit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal care</title>
+      <link>https://logotyp.us/industry/personal-care/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/personal-care/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pharmaceuticals</title>
+      <link>https://logotyp.us/industry/pharmaceuticals/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/pharmaceuticals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>real estate</title>
+      <link>https://logotyp.us/industry/real-estate/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/real-estate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retailer</title>
+      <link>https://logotyp.us/industry/retailer/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/retailer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social media</title>
+      <link>https://logotyp.us/industry/social-media/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://logotyp.us/industry/software/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sportswear</title>
+      <link>https://logotyp.us/industry/sportswear/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/sportswear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>toys</title>
+      <link>https://logotyp.us/industry/toys/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/toys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transportation</title>
+      <link>https://logotyp.us/industry/transportation/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/transportation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://logotyp.us/industry/travel/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/travel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>healthcare</title>
@@ -26,42 +269,6 @@
       <pubDate>Sun, 05 Apr 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/investments/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>aerospace</title>
-      <link>https://logotyp.us/industry/aerospace/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/aerospace/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>airlines</title>
-      <link>https://logotyp.us/industry/airlines/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/airlines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>automotive</title>
-      <link>https://logotyp.us/industry/automotive/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/automotive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>banking &amp; finance</title>
-      <link>https://logotyp.us/industry/banking-finance/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/banking-finance/</guid>
       <description></description>
     </item>
     
@@ -84,146 +291,11 @@
     </item>
     
     <item>
-      <title>education</title>
-      <link>https://logotyp.us/industry/education/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>electrical equipment</title>
-      <link>https://logotyp.us/industry/electrical-equipment/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/electrical-equipment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>electronics</title>
-      <link>https://logotyp.us/industry/electronics/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/electronics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>energy</title>
       <link>https://logotyp.us/industry/energy/</link>
       <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/energy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>entertaiment</title>
-      <link>https://logotyp.us/industry/entertaiment/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/entertaiment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fashion</title>
-      <link>https://logotyp.us/industry/fashion/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/fashion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>food</title>
-      <link>https://logotyp.us/industry/food/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/food/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>insurance</title>
-      <link>https://logotyp.us/industry/insurance/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/insurance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>internet</title>
-      <link>https://logotyp.us/industry/internet/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/internet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>liquors</title>
-      <link>https://logotyp.us/industry/liquors/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/liquors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>manufacturing</title>
-      <link>https://logotyp.us/industry/manufacturing/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/manufacturing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>media</title>
-      <link>https://logotyp.us/industry/media/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/media/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pharmaceuticals</title>
-      <link>https://logotyp.us/industry/pharmaceuticals/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/pharmaceuticals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>real estate</title>
-      <link>https://logotyp.us/industry/real-estate/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/real-estate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retailer</title>
-      <link>https://logotyp.us/industry/retailer/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/retailer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://logotyp.us/industry/software/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/software/</guid>
       <description></description>
     </item>
     
@@ -237,15 +309,6 @@
     </item>
     
     <item>
-      <title>sportswear</title>
-      <link>https://logotyp.us/industry/sportswear/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/sportswear/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>telecom</title>
       <link>https://logotyp.us/industry/telecom/</link>
       <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
@@ -255,47 +318,11 @@
     </item>
     
     <item>
-      <title>toys</title>
-      <link>https://logotyp.us/industry/toys/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/toys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>transportation</title>
-      <link>https://logotyp.us/industry/transportation/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/transportation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>travel</title>
-      <link>https://logotyp.us/industry/travel/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>banking &amp; finances</title>
       <link>https://logotyp.us/industry/banking-finances/</link>
       <pubDate>Wed, 11 Dec 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/banking-finances/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nonprofit</title>
-      <link>https://logotyp.us/industry/nonprofit/</link>
-      <pubDate>Wed, 11 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/nonprofit/</guid>
       <description></description>
     </item>
     
@@ -323,15 +350,6 @@
       <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/newspaper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>social media</title>
-      <link>https://logotyp.us/industry/social-media/</link>
-      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/social-media/</guid>
       <description></description>
     </item>
     
@@ -390,15 +408,6 @@
     </item>
     
     <item>
-      <title>news</title>
-      <link>https://logotyp.us/industry/news/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>press</title>
       <link>https://logotyp.us/industry/press/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -413,15 +422,6 @@
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>personal care</title>
-      <link>https://logotyp.us/industry/personal-care/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/personal-care/</guid>
       <description></description>
     </item>
     

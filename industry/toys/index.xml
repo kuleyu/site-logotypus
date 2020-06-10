@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>toys on Logotyp.us</title>
@@ -6,10 +6,19 @@
     <description>Recent content in toys on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/toys/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mattel</title>
+      <link>https://logotyp.us/logo/mattel/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/mattel/</guid>
+      <description>Mattel, Inc. (/məˈtɛl/) is an American multinational toy manufacturing and entertainment company founded in 1945 with headquarters in El Segundo, California. The products and brands it produces include Fisher-Price, Barbie, Monster High, Ever After High, Polly Pocket, Hot Wheels, Matchbox, Masters of the Universe, American Girl, Thomas &amp;amp; Friends, and WWE. In the early 1980s, Mattel produced video game systems, under its own brands and under license from Nintendo. The company has presence in 40 countries and territories and sells products in more than 150 countries.</description>
+    </item>
     
     <item>
       <title>Barbie</title>

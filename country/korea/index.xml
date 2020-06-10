@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Korea on Logotyp.us</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Korea on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/country/korea/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fila</title>
+      <link>https://logotyp.us/logo/fila/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/fila/</guid>
+      <description>Fila Holdings Corp. (d/b/a Fila) is a South Korean corporation that designs and manufactures shoes and apparel, taking its current name after the acquisition of the Italian company Fila in 2007 and therefore the rights to the brand name. It is the largest South Korean sportswear manufacturer. Fila was originally founded by Ettore and Giansevero Fila in 1911 in Biella, Piedmont, Italy. In 2003, it was sold to United States-based Sports Brand International.</description>
+    </item>
     
     <item>
       <title>Lotte</title>

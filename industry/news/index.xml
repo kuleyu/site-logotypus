@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>news on Logotyp.us</title>
@@ -6,10 +6,19 @@
     <description>Recent content in news on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Sep 2019 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reuters</title>
+      <link>https://logotyp.us/logo/reuters/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/reuters/</guid>
+      <description>Reuters (About this soundpronunciation ; /ˈrɔɪtərz/) is an international news organization owned by Thomson Reuters. Until 2008, the Reuters news agency formed part of an independent company, Reuters Group plc, which was also a provider of financial market data. Since the acquisition of Reuters Group by the Thomson Corporation in 2008, the Reuters news agency has been a part of Thomson Reuters, making up the media division. It was established in 1851.</description>
+    </item>
     
     <item>
       <title>Al Jazeera</title>
@@ -36,7 +45,7 @@
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/logo/bbc-world-news/</guid>
-      <description>BBC World News is the BBC&amp;rsquo;s international news and current affairs television channel. It has the largest audience of any channel, with an estimated 121 million viewers weekly in 2016&amp;frasl;2017, part of the estimated 372 million weekly audience of the BBC&amp;rsquo;s four main international news services. Launched on 11 March 1991 as BBC World Service Television outside Europe, its name was changed to BBC World on 16 January 1995 and to BBC World News on 21 April 2008.</description>
+      <description>BBC World News is the BBC&amp;rsquo;s international news and current affairs television channel. It has the largest audience of any channel, with an estimated 121 million viewers weekly in 2016/2017, part of the estimated 372 million weekly audience of the BBC&amp;rsquo;s four main international news services. Launched on 11 March 1991 as BBC World Service Television outside Europe, its name was changed to BBC World on 16 January 1995 and to BBC World News on 21 April 2008.</description>
     </item>
     
     <item>
@@ -166,6 +175,16 @@
     </item>
     
     <item>
+      <title>i24 News</title>
+      <link>https://logotyp.us/logo/i24-news/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/i24-news/</guid>
+      <description> i24NEWS is an Israeli international 24-hour news and current affairs television channel located in Jaffa Port, Tel Aviv, Israel. It broadcasts in French, English and Arabic. The channel&amp;rsquo;s owner is Patrick Drahi, and the CEO is Frank Melloul.
+ Source </description>
+    </item>
+    
+    <item>
       <title>MSNBC</title>
       <link>https://logotyp.us/logo/msnbc/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -185,22 +204,22 @@
     </item>
     
     <item>
-      <title>NHK</title>
-      <link>https://logotyp.us/logo/nhk/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/nhk/</guid>
-      <description> NHK World-Japan is the international broadcasting service of NHK (Nippon Hōsō Kyōkai - Japan Broadcasting Corporation), Japan&amp;rsquo;s public broadcaster. The service is aimed at the overseas market, similar to BBC World News, DW, France 24, CGTN, and RT, and broadcast through satellite and cable operators throughout the world as well as online and through its mobile apps. The channel is based in Tokyo, Japan.
- Source </description>
-    </item>
-    
-    <item>
       <title>News 12 Networks</title>
       <link>https://logotyp.us/logo/news-12-networks/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/logo/news-12-networks/</guid>
       <description> The News 12 Networks are a group of regional cable news television channels in the New York metropolitan area that are owned by Altice USA. All channels provide rolling news coverage 24-hours a day, focusing primarily on regions of the metro area outside Manhattan, Queens, and Staten Island.
+ Source </description>
+    </item>
+    
+    <item>
+      <title>NHK</title>
+      <link>https://logotyp.us/logo/nhk/</link>
+      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/nhk/</guid>
+      <description> NHK World-Japan is the international broadcasting service of NHK (Nippon Hōsō Kyōkai - Japan Broadcasting Corporation), Japan&amp;rsquo;s public broadcaster. The service is aimed at the overseas market, similar to BBC World News, DW, France 24, CGTN, and RT, and broadcast through satellite and cable operators throughout the world as well as online and through its mobile apps. The channel is based in Tokyo, Japan.
  Source </description>
     </item>
     
@@ -271,16 +290,6 @@
       
       <guid>https://logotyp.us/logo/weather-channel/</guid>
       <description>The Weather Channel (TWC) is an American pay television channel owned by The Weather Group, LLC, a subsidiary of Entertainment Studios. The channel&amp;rsquo;s headquarters are located in Atlanta, Georgia. Launched on May 2, 1982, the channel broadcasts weather forecasts and weather-related news and analysis, along with documentaries and entertainment programming related to weather. A sister network, Weatherscan, is a digital cable and satellite service that offers 24-hour automated local forecasts and radar imagery.</description>
-    </item>
-    
-    <item>
-      <title>i24 News</title>
-      <link>https://logotyp.us/logo/i24-news/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/i24-news/</guid>
-      <description> i24NEWS is an Israeli international 24-hour news and current affairs television channel located in Jaffa Port, Tel Aviv, Israel. It broadcasts in French, English and Arabic. The channel&amp;rsquo;s owner is Patrick Drahi, and the CEO is Frank Melloul.
- Source </description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Country on Logotyp.us</title>
@@ -6,26 +6,134 @@
     <description>Recent content in Country on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 22:22:10 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/country/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>United States</title>
-      <link>https://logotyp.us/country/united-states/</link>
-      <pubDate>Sat, 04 Apr 2020 22:22:10 -0400</pubDate>
+      <title>Australia</title>
+      <link>https://logotyp.us/country/australia/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
       
-      <guid>https://logotyp.us/country/united-states/</guid>
+      <guid>https://logotyp.us/country/australia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canada</title>
+      <link>https://logotyp.us/country/canada/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/canada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>China</title>
+      <link>https://logotyp.us/country/china/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/china/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emirates</title>
+      <link>https://logotyp.us/country/emirates/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/emirates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>France</title>
+      <link>https://logotyp.us/country/france/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/france/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Germany</title>
+      <link>https://logotyp.us/country/germany/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/germany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Italy</title>
+      <link>https://logotyp.us/country/italy/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/italy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Japan</title>
       <link>https://logotyp.us/country/japan/</link>
-      <pubDate>Sun, 05 Apr 2020 00:32:00 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Korea</title>
+      <link>https://logotyp.us/country/korea/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/korea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switzerland</title>
+      <link>https://logotyp.us/country/switzerland/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/switzerland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taiwan</title>
+      <link>https://logotyp.us/country/taiwan/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/taiwan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thailand</title>
+      <link>https://logotyp.us/country/thailand/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/thailand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>United Kingdom</title>
+      <link>https://logotyp.us/country/united-kingdom/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/united-kingdom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>United States</title>
+      <link>https://logotyp.us/country/united-states/</link>
+      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/country/united-states/</guid>
       <description></description>
     </item>
     
@@ -39,29 +147,11 @@
     </item>
     
     <item>
-      <title>China</title>
-      <link>https://logotyp.us/country/china/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/china/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Denmark</title>
       <link>https://logotyp.us/country/denmark/</link>
       <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/denmark/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>France</title>
-      <link>https://logotyp.us/country/france/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/france/</guid>
       <description></description>
     </item>
     
@@ -102,15 +192,6 @@
     </item>
     
     <item>
-      <title>Korea</title>
-      <link>https://logotyp.us/country/korea/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/korea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Netherlands</title>
       <link>https://logotyp.us/country/netherlands/</link>
       <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
@@ -134,69 +215,6 @@
       <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/spain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Taiwan</title>
-      <link>https://logotyp.us/country/taiwan/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/taiwan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>United Kingdom</title>
-      <link>https://logotyp.us/country/united-kingdom/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/united-kingdom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>USA</title>
-      <link>https://logotyp.us/country/usa/</link>
-      <pubDate>Mon, 16 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/usa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Australia</title>
-      <link>https://logotyp.us/country/australia/</link>
-      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/australia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Canada</title>
-      <link>https://logotyp.us/country/canada/</link>
-      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/canada/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Germany</title>
-      <link>https://logotyp.us/country/germany/</link>
-      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/germany/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Switzerland</title>
-      <link>https://logotyp.us/country/switzerland/</link>
-      <pubDate>Sat, 07 Dec 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/switzerland/</guid>
       <description></description>
     </item>
     
@@ -251,15 +269,6 @@
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/israel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Italy</title>
-      <link>https://logotyp.us/country/italy/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/italy/</guid>
       <description></description>
     </item>
     
@@ -345,15 +354,6 @@
     </item>
     
     <item>
-      <title>Thailand</title>
-      <link>https://logotyp.us/country/thailand/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/thailand/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Turkey</title>
       <link>https://logotyp.us/country/turkey/</link>
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
@@ -368,15 +368,6 @@
       <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/country/venezuela/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Emirates</title>
-      <link>https://logotyp.us/country/emirates/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/country/emirates/</guid>
       <description></description>
     </item>
     
