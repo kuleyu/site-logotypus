@@ -6,10 +6,19 @@
     <description>Recent content in Industry on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>software</title>
+      <link>https://logotyp.us/industry/software/</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/industry/software/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>aerospace</title>
@@ -188,15 +197,6 @@
       <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/social-media/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://logotyp.us/industry/software/</link>
-      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/software/</guid>
       <description></description>
     </item>
     
