@@ -6,10 +6,28 @@
     <description>Recent content in C on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/a-z/c/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C-sharp</title>
+      <link>https://logotyp.us/logo/c-sharp/</link>
+      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/c-sharp/</guid>
+      <description>C# is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed around 2000 by Microsoft as part of its .NET initiative and later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO (ISO/IEC 23270) in 2003. Mono is the name of the free and open-source project to develop a compiler and runtime for the language.</description>
+    </item>
+    
+    <item>
+      <title>Commonwealth Bank</title>
+      <link>https://logotyp.us/logo/commonwealth-bank/</link>
+      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/commonwealth-bank/</guid>
+      <description>The Commonwealth Bank of Australia (CBA), or CommBank, is an Australian multinational bank with businesses across New Zealand, Asia, the United States and the United Kingdom. It provides a variety of financial services including retail, business and institutional banking, funds management, superannuation, insurance, investment and broking services. The Commonwealth Bank is the largest Australian listed company on the Australian Securities Exchange as of August 2015 with brands including Bankwest, Colonial First State Investments, ASB Bank (New Zealand), Commonwealth Securities (CommSec) and Commonwealth Insurance (CommInsure).</description>
+    </item>
     
     <item>
       <title>Creative Cloud</title>

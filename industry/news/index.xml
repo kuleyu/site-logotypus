@@ -6,10 +6,20 @@
     <description>Recent content in news on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TechCrunch</title>
+      <link>https://logotyp.us/logo/techcrunch/</link>
+      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/techcrunch/</guid>
+      <description>TechCrunch is an American online publisher focusing on the tech industry. The company specifically reports on the business related to tech, technology news, analysis of emerging trends in tech, and profiling of new tech businesses and products. It was one of the earliest publications to report extensively on tech startups and funding.
+ TechCrunch was founded in June 2005 by Archimedes Ventures, led by partners Michael Arrington and Keith Teare.</description>
+    </item>
     
     <item>
       <title>Reuters</title>

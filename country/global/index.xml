@@ -6,10 +6,19 @@
     <description>Recent content in Global on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2020 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/country/global/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eslint</title>
+      <link>https://logotyp.us/logo/eslint/</link>
+      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
+      
+      <guid>https://logotyp.us/logo/eslint/</guid>
+      <description>ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code. It was created by Nicholas C. Zakas in 2013. Rules in ESLint are configurable, and customized rules can be defined and loaded. ESLint covers both code quality and coding style issues. ESLint supports current standards of ECMAScript, and experimental syntax from drafts for future standards. Code using JSX or TypeScript can also be processed when a plugin or transpiler is used.</description>
+    </item>
     
     <item>
       <title>Decred</title>
