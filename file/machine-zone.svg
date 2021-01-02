@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 560 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g id="logo_1_" transform="matrix(0.917431,0,0,0.917431,95.6881,61.4679)">
-        <path d="M274.2,93.2L178.4,260L155.7,260L68.5,102.4L68.5,260L26.7,260L26.7,42L85.9,42L167.4,189.5L227.4,93L274.2,93.2ZM375.1,42.1L256.9,42L235.3,79.8L306.5,79.8L201.1,260L358.1,260L358.1,225.1L270.4,225.1L375.1,42.1Z" style="fill-rule:nonzero;"/>
-    </g>
-</svg>
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41421" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg"><path d="m274.2 93.2-95.8 166.8h-22.7l-87.2-157.6v157.6h-41.8v-218h59.2l81.5 147.5 60-96.5zm100.9-51.1-118.2-.1-21.6 37.8h71.2l-105.4 180.2h157v-34.9h-87.7z" fill-rule="nonzero" transform="matrix(.917431 0 0 .917431 95.6881 61.4679)"/></svg>
