@@ -6,7 +6,7 @@
     <description>Recent content in Industry on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/industry/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,108 @@
     <item>
       <title>automotive</title>
       <link>https://logotyp.us/industry/automotive/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
+      <pubDate>Wed, 06 Jan 2021 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/automotive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>banking &amp; finances</title>
+      <link>https://logotyp.us/industry/banking-finances/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0038</pubDate>
+      
+      <guid>https://logotyp.us/industry/banking-finances/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coffee</title>
+      <link>https://logotyp.us/industry/coffee/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0037</pubDate>
+      
+      <guid>https://logotyp.us/industry/coffee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beverages</title>
+      <link>https://logotyp.us/industry/beverages/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0036</pubDate>
+      
+      <guid>https://logotyp.us/industry/beverages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diversified</title>
+      <link>https://logotyp.us/industry/diversified/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0020</pubDate>
+      
+      <guid>https://logotyp.us/industry/diversified/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retail</title>
+      <link>https://logotyp.us/industry/retail/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0019</pubDate>
+      
+      <guid>https://logotyp.us/industry/retail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>telecom</title>
+      <link>https://logotyp.us/industry/telecom/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0017</pubDate>
+      
+      <guid>https://logotyp.us/industry/telecom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>https://logotyp.us/industry/technology/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0016</pubDate>
+      
+      <guid>https://logotyp.us/industry/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apparel</title>
+      <link>https://logotyp.us/industry/apparel/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0013</pubDate>
+      
+      <guid>https://logotyp.us/industry/apparel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>restaurants</title>
+      <link>https://logotyp.us/industry/restaurants/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0010</pubDate>
+      
+      <guid>https://logotyp.us/industry/restaurants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>luxury</title>
+      <link>https://logotyp.us/industry/luxury/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0009</pubDate>
+      
+      <guid>https://logotyp.us/industry/luxury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leisure</title>
+      <link>https://logotyp.us/industry/leisure/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0007</pubDate>
+      
+      <guid>https://logotyp.us/industry/leisure/</guid>
       <description></description>
     </item>
     
@@ -165,15 +264,6 @@
     </item>
     
     <item>
-      <title>retailer</title>
-      <link>https://logotyp.us/industry/retailer/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/retailer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>social media</title>
       <link>https://logotyp.us/industry/social-media/</link>
       <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
@@ -201,24 +291,6 @@
     </item>
     
     <item>
-      <title>technology</title>
-      <link>https://logotyp.us/industry/technology/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>telecom</title>
-      <link>https://logotyp.us/industry/telecom/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/telecom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>aerospace</title>
       <link>https://logotyp.us/industry/aerospace/</link>
       <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
@@ -237,11 +309,11 @@
     </item>
     
     <item>
-      <title>banking &amp; finances</title>
-      <link>https://logotyp.us/industry/banking-finances/</link>
+      <title>alcohol</title>
+      <link>https://logotyp.us/industry/alcohol/</link>
       <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
       
-      <guid>https://logotyp.us/industry/banking-finances/</guid>
+      <guid>https://logotyp.us/industry/alcohol/</guid>
       <description></description>
     </item>
     
@@ -273,15 +345,6 @@
     </item>
     
     <item>
-      <title>sportswear</title>
-      <link>https://logotyp.us/industry/sportswear/</link>
-      <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/sportswear/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>toys</title>
       <link>https://logotyp.us/industry/toys/</link>
       <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
@@ -305,15 +368,6 @@
       <pubDate>Sun, 07 Jun 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>corporation</title>
-      <link>https://logotyp.us/industry/corporation/</link>
-      <pubDate>Sat, 04 Apr 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/corporation/</guid>
       <description></description>
     </item>
     
@@ -440,15 +494,6 @@
       <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/industry/urban/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coffee</title>
-      <link>https://logotyp.us/industry/coffee/</link>
-      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/industry/coffee/</guid>
       <description></description>
     </item>
     

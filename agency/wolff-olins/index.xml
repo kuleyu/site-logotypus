@@ -6,10 +6,20 @@
     <description>Recent content in Wolff Olins on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 -0020</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/agency/wolff-olins/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>General Electric</title>
+      <link>https://logotyp.us/logo/general-electric/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0020</pubDate>
+      
+      <guid>https://logotyp.us/logo/general-electric/</guid>
+      <description> General Electric Company (GE) is an American multinational conglomerate incorporated in New York City and headquartered in Boston. As of 2018, the company operates through the following segments: aviation, healthcare, power, renewable energy, digital industry, additive manufacturing, venture capital and finance, lighting, and oil and gas.
+  Source </description>
+    </item>
     
     <item>
       <title>AOL</title>
@@ -137,16 +147,6 @@
       <guid>https://logotyp.us/logo/uber/</guid>
       <description>Uber Technologies Inc. is an American multinational transportation network company (TNC) offering services that include peer-to-peer ridesharing, ride service hailing, food delivery, and a bicycle-sharing system. The company is based in San Francisco and has operations in 785 metropolitan areas worldwide. Its platforms can be accessed via its websites and mobile apps.
   Source Uber typography is as unique and easy to use as Uber are. Inspired by the world’s best used transportation examples, it was designed to maximize its impact across all applications while keeping it easy to read, ownable, and highly recognizable.</description>
-    </item>
-    
-    <item>
-      <title>General Electric</title>
-      <link>https://logotyp.us/logo/general-electric/</link>
-      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/general-electric/</guid>
-      <description> General Electric Company (GE) is an American multinational conglomerate incorporated in New York City and headquartered in Boston. As of 2018, the company operates through the following segments: aviation, healthcare, power, renewable energy, digital industry, additive manufacturing, venture capital and finance, lighting, and oil and gas.
-  Source </description>
     </item>
     
   </channel>

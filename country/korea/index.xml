@@ -6,10 +6,20 @@
     <description>Recent content in Korea on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 -0008</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/country/korea/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Samsung</title>
+      <link>https://logotyp.us/logo/samsung/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0008</pubDate>
+      
+      <guid>https://logotyp.us/logo/samsung/</guid>
+      <description> The Samsung Group is a South Korean multinational conglomerate headquartered in Samsung Town, Seoul. It comprises numerous affiliated businesses, most of them united under the Samsung brand, and is the largest South Korean chaebol. Samsung was founded by Lee Byung-chul in 1938 as a trading company.
+  Source </description>
+    </item>
     
     <item>
       <title>Doosan Bears</title>
@@ -183,16 +193,6 @@
       
       <guid>https://logotyp.us/logo/kia/</guid>
       <description>Kia Motors Corporation, headquartered in Seoul, is South Korea&amp;rsquo;s second-largest automobile manufacturer, following the Hyundai Motor Company, with sales of over 3.3 million vehicles in 2015. As of December 2015, the Kia Motor Corporation is minority owned by Hyundai, which owns a 33.88% stake valued at just over US$6 billion. Kia in turn is a minority owner of more than twenty Hyundai subsidiaries ranging from 4.9% up to 45.37%, totaling more than US$8.</description>
-    </item>
-    
-    <item>
-      <title>Samsung</title>
-      <link>https://logotyp.us/logo/samsung/</link>
-      <pubDate>Sun, 26 May 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/samsung/</guid>
-      <description> Samsung is a South Korean multinational conglomerate headquartered in Samsung Town, Seoul. It comprises numerous affiliated businesses, most of them united under the Samsung brand, and is the largest South Korean chaebol (business conglomerate).
-  Source </description>
     </item>
     
   </channel>

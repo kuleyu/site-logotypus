@@ -6,7 +6,7 @@
     <description>Recent content in Colors on Logotyp.us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 00:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 00:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://logotyp.us/colors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,63 @@
     <item>
       <title>black</title>
       <link>https://logotyp.us/colors/black/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
+      <pubDate>Wed, 06 Jan 2021 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/colors/black/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>red</title>
+      <link>https://logotyp.us/colors/red/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0038</pubDate>
+      
+      <guid>https://logotyp.us/colors/red/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yellow</title>
+      <link>https://logotyp.us/colors/yellow/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0038</pubDate>
+      
+      <guid>https://logotyp.us/colors/yellow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>green</title>
+      <link>https://logotyp.us/colors/green/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0037</pubDate>
+      
+      <guid>https://logotyp.us/colors/green/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>white</title>
+      <link>https://logotyp.us/colors/white/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0037</pubDate>
+      
+      <guid>https://logotyp.us/colors/white/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>blue</title>
       <link>https://logotyp.us/colors/blue/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0020</pubDate>
       
       <guid>https://logotyp.us/colors/blue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gray</title>
+      <link>https://logotyp.us/colors/gray/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0011</pubDate>
+      
+      <guid>https://logotyp.us/colors/gray/</guid>
       <description></description>
     </item>
     
@@ -35,24 +80,6 @@
       <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/colors/brown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gray</title>
-      <link>https://logotyp.us/colors/gray/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/colors/gray/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>green</title>
-      <link>https://logotyp.us/colors/green/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/colors/green/</guid>
       <description></description>
     </item>
     
@@ -71,33 +98,6 @@
       <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
       
       <guid>https://logotyp.us/colors/purple/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>red</title>
-      <link>https://logotyp.us/colors/red/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/colors/red/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>white</title>
-      <link>https://logotyp.us/colors/white/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/colors/white/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>yellow</title>
-      <link>https://logotyp.us/colors/yellow/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/colors/yellow/</guid>
       <description></description>
     </item>
     

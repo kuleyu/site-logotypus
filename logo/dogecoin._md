@@ -1,0 +1,30 @@
+---
+page_type: logo
+title: Dogecoin
+subtitle: Dogecoin (DOGE)   
+date: 2020-04-04T00:32:00-00:00
+brand_url: dogecoin.com
+brand: 
+special: 
+
+# taxonomies
+industry: crypto
+country: Global
+a-z: 'D'
+year: ''
+
+designer:
+designer_url:
+agency: 
+agency_url: 
+
+colors:
+  - white
+  - yellow
+
+tags:
+  - crypto
+---
+> Dogecoin (DOGE, symbol: Ð and D) is a Litecoin-derived cryptocurrency featuring a Shiba Inu from the Doge Internet meme on its logo. The users themselves call it “joky”. One of the most popular uses of the coin is the reward of Internet users for interesting and quality content created or shared by them. It was introduced on December 8, 2013.
+
+{{< from "https://en.bitcoinwiki.org/wiki/Dogecoin" >}}
