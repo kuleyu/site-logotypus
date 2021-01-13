@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>2 on Logotyp.us</title>
-    <link>https://logotyp.us/a-z/2/</link>
-    <description>Recent content in 2 on Logotyp.us</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2019 00:32:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://logotyp.us/a-z/2/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>21st Century Fox</title>
-      <link>https://logotyp.us/logo/21st-century-fox/</link>
-      <pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/21st-century-fox/</guid>
-      <description> Twenty-First Century Fox, Inc., doing business as 21st Century Fox (21CF), was an American multinational mass media corporation that was based in Midtown Manhattan, New York City. It was one of the two companies formed from the 2013 spin-off of the publishing assets of News Corporation, as founded by Rupert Murdoch in 1980.
-  Source  Source </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2 on Logotyp.us</title><link>https://logotyp.us/a-z/2/</link><description>Recent content in 2 on Logotyp.us</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 13 Jul 2019 00:32:00 +0000</lastBuildDate><atom:link href="https://logotyp.us/a-z/2/index.xml" rel="self" type="application/rss+xml"/><item><title>21st Century Fox</title><link>https://logotyp.us/logo/21st-century-fox/</link><pubDate>Sat, 13 Jul 2019 00:32:00 +0000</pubDate><guid>https://logotyp.us/logo/21st-century-fox/</guid><description> Twenty-First Century Fox, Inc., doing business as 21st Century Fox (21CF), was an American multinational mass media corporation that was based in Midtown Manhattan, New York City. It was one of the two companies formed from the 2013 spin-off of the publishing assets of News Corporation, as founded by Rupert Murdoch in 1980.
+Source Source</description></item></channel></rss>

@@ -1,38 +1,4 @@
-function $(selector){return document.querySelector(selector);}
-function get(url,callback){var request=new XMLHttpRequest();request.onreadystatechange=function(){if(this.readyState==4&&this.status==200){callback(this.responseText);}};request.open('GET',url,true);request.send();}
-var selectedItem=0;document.addEventListener('DOMContentLoaded',function(){var autocomplete_list=$('.form-autocomplete ul.menu');var data=JSON.parse(localStorage.getItem('logotyp.data'))||[];if(!data.length||(new Date()-parseInt(localStorage.getItem('logotyp.time')))/1000>3){get('/data/index.html',function(d){data=JSON.parse(d);localStorage.setItem('logotyp.data',d);localStorage.setItem('logotyp.time',+new Date());});}
-var goto_menu_item=function(item){document.location.href='/logo/'+item.getAttribute('content').toLowerCase();};var handler=function(e){if('keyCode'in e&&e.keyCode==13){goto_menu_item($('ul#autocomplete li.menu-item-selected'));return;}
-if(e.target.value.length==0){$('#autocomplete').style.display='none';return;}
-$('#autocomplete').style.display='block';if(e.target.value.length==1){autocomplete_list.innerHTML='<li class="toast">Please enter at least 2 characters to get results</li>';return;}
-if('keyCode'in e&&e.keyCode==27){e.target.value='';autocomplete_list.innerHTML='';$('#autocomplete').style.display='none';return;}
-var html=[];var list=[];const input=e.target.value;for(i in data){const searchStr=new RegExp(input.toLowerCase().split(' ').join('.*'));if(data[i].toLowerCase().split(/[\ \-]/).join('').search(searchStr)>=0){list.push(data[i]);}}
-list.sort(function(a,b){if(a.search(input)>b.search(input)){return 1;}
-if(a.search(input)<b.search(input)){return-1;}
-return 0;});for(i in list){html.push('<li class="menu-item" content="'+
-list[i].split('.')[0]+
-'" image="'+
-list[i]+
-'">'+
-'<a href="/logo/'+
-list[i].toLowerCase()+
-'/" >'+
-'<div class="chip">'+
-'<div class="chip-content">'+
-list[i].replace(/-/g,' ')+
-'</div>'+
-'<div class="chip-icon">'+
-'<img src="/file/'+
-list[i].toLowerCase()+
-'.svg" class="avatar" />'+
-'</div>'+
-'</div>'+
-'</a>'+
-'</li>');}
-var deselectAll=function(items){items.forEach(item=>item.classList.remove('menu-item-selected'));if(selectedItem>=0&&selectedItem<items.length){items[selectedItem].classList.add('menu-item-selected');}};if(!html.length){$('#autocomplete').style.display='none';}else{autocomplete_list.innerHTML=html.join('\n');var items=document.querySelectorAll('ul#autocomplete li');if('keyCode'in e&&e.keyCode==38){if(selectedItem<=0){selectedItem=items.length-1;}else{selectedItem-=1;}}
-if('keyCode'in e&&e.keyCode==40){if(selectedItem>=items.length-1){selectedItem=0;}else{selectedItem+=1;}}
-deselectAll(items);}
-return false;};$('.form-input').addEventListener('keyup',handler);$('.form-input').addEventListener('focus',handler);$('body').addEventListener('click',function(e){var parent=e.target.closest('li');if(parent&&parent.className=='menu-item'){goto_menu_item(parent);}else if(e.target.className.indexOf('form-input')>=0&&e.target.value.length>0){$('#autocomplete').style.display='block';}else{$('#autocomplete').style.display='none';}
-return false;});});;const htmlCommentRegex=/<!--([\s\S]*?)-->/g;const svgNamespace='http://www.w3.org/2000/svg';const colorRegex=/(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\))/i;const colornames=['black','silver','gray','white','maroon','red','purple','fuchsia','green','lime','olive','yellow','navy','blue','teal','aqua','aliceblue','antiquewhite','aqua','aquamarine','azure','beige','bisque','black','blanchedalmond','blue','blueviolet','brown','burlywood','cadetblue','chartreuse','chocolate','coral','cornflowerblue','cornsilk','crimson','cyan','darkblue','darkcyan','darkgoldenrod','darkgray','darkgreen','darkgrey','darkkhaki','darkmagenta','darkolivegreen','darkorange','darkorchid','darkred','darksalmon','darkseagreen','darkslateblue','darkslategray','darkslategrey','darkturquoise','darkviolet','deeppink','deepskyblue','dimgray','dimgrey','dodgerblue','firebrick','floralwhite','forestgreen','fuchsia','gainsboro','ghostwhite','gold','goldenrod','gray','green','greenyellow','grey','honeydew','hotpink','indianred','indigo','ivory','khaki','lavender','lavenderblush','lawngreen','lemonchiffon','lightblue','lightcoral','lightcyan','lightgoldenrodyellow','lightgray','lightgreen','lightgrey','lightpink','lightsalmon','lightseagreen','lightskyblue','lightslategray','lightslategrey','lightsteelblue','lightyellow','lime','limegreen','linen','magenta','maroon','mediumaquamarine','mediumblue','mediumorchid','mediumpurple','mediumseagreen','mediumslateblue','mediumspringgreen','mediumturquoise','mediumvioletred','midnightblue','mintcream','mistyrose','moccasin','navajowhite','navy','oldlace','olive','olivedrab','orange','orangered','orchid','palegoldenrod','palegreen','paleturquoise','palevioletred','papayawhip','peachpuff','peru','pink','plum','powderblue','purple','red','rosybrown','royalblue','saddlebrown','salmon','sandybrown','seagreen','seashell','sienna','silver','skyblue','slateblue','slategray','slategrey','snow','springgreen','steelblue','tan','teal','thistle','tomato','turquoise','violet','wheat','white','whitesmoke','yellow','yellowgreen'];function unique(value,index,arr){return arr.indexOf(value)===index;}
+const htmlCommentRegex=/<!--([\s\S]*?)-->/g;const svgNamespace='http://www.w3.org/2000/svg';const colorRegex=/(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\))/i;const colornames=['black','silver','gray','white','maroon','red','purple','fuchsia','green','lime','olive','yellow','navy','blue','teal','aqua','aliceblue','antiquewhite','aqua','aquamarine','azure','beige','bisque','black','blanchedalmond','blue','blueviolet','brown','burlywood','cadetblue','chartreuse','chocolate','coral','cornflowerblue','cornsilk','crimson','cyan','darkblue','darkcyan','darkgoldenrod','darkgray','darkgreen','darkgrey','darkkhaki','darkmagenta','darkolivegreen','darkorange','darkorchid','darkred','darksalmon','darkseagreen','darkslateblue','darkslategray','darkslategrey','darkturquoise','darkviolet','deeppink','deepskyblue','dimgray','dimgrey','dodgerblue','firebrick','floralwhite','forestgreen','fuchsia','gainsboro','ghostwhite','gold','goldenrod','gray','green','greenyellow','grey','honeydew','hotpink','indianred','indigo','ivory','khaki','lavender','lavenderblush','lawngreen','lemonchiffon','lightblue','lightcoral','lightcyan','lightgoldenrodyellow','lightgray','lightgreen','lightgrey','lightpink','lightsalmon','lightseagreen','lightskyblue','lightslategray','lightslategrey','lightsteelblue','lightyellow','lime','limegreen','linen','magenta','maroon','mediumaquamarine','mediumblue','mediumorchid','mediumpurple','mediumseagreen','mediumslateblue','mediumspringgreen','mediumturquoise','mediumvioletred','midnightblue','mintcream','mistyrose','moccasin','navajowhite','navy','oldlace','olive','olivedrab','orange','orangered','orchid','palegoldenrod','palegreen','paleturquoise','palevioletred','papayawhip','peachpuff','peru','pink','plum','powderblue','purple','red','rosybrown','royalblue','saddlebrown','salmon','sandybrown','seagreen','seashell','sienna','silver','skyblue','slateblue','slategray','slategrey','snow','springgreen','steelblue','tan','teal','thistle','tomato','turquoise','violet','wheat','white','whitesmoke','yellow','yellowgreen'];function unique(value,index,arr){return arr.indexOf(value)===index;}
 function compact(arr){var index=-1,length=arr?arr.length:0,resIndex=0,result=[];while(++index<length){var value=arr[index];if(value){result[resIndex++]=value;}}
 return result;}
 function toLowerCase(str){return str.toLowerCase();}

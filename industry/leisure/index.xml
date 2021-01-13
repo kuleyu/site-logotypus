@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>leisure on Logotyp.us</title>
-    <link>https://logotyp.us/industry/leisure/</link>
-    <description>Recent content in leisure on Logotyp.us</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 -0007</lastBuildDate>
-    
-	<atom:link href="https://logotyp.us/industry/leisure/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Disney</title>
-      <link>https://logotyp.us/logo/disney/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 -0007</pubDate>
-      
-      <guid>https://logotyp.us/logo/disney/</guid>
-      <description>The Walt Disney Company, commonly known as Disney, is an American diversified multinational mass media and entertainment conglomerate headquartered at the Walt Disney Studios complex in Burbank, California. Disney was originally founded on October 16, 1923, by brothers Walt and Roy O.
- About The Walt Disney Company  Disney was founded on October 16, 1923 – by brothers Walt Disney and Roy O. Disney – as the Disney Brothers Cartoon Studio, and established itself as a leader in the American animation industry before diversifying into live-action film production, television, and theme parks.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>leisure on Logotyp.us</title><link>https://logotyp.us/industry/leisure/</link><description>Recent content in leisure on Logotyp.us</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 -0007</lastBuildDate><atom:link href="https://logotyp.us/industry/leisure/index.xml" rel="self" type="application/rss+xml"/><item><title>Disney</title><link>https://logotyp.us/logo/disney/</link><pubDate>Fri, 01 Jan 2021 00:00:00 -0007</pubDate><guid>https://logotyp.us/logo/disney/</guid><description>The Walt Disney Company, commonly known as Disney, is an American diversified multinational mass media and entertainment conglomerate headquartered at the Walt Disney Studios complex in Burbank, California. Disney was originally founded on October 16, 1923, by brothers Walt and Roy O.
+About The Walt Disney Company Disney was founded on October 16, 1923 – by brothers Walt Disney and Roy O. Disney – as the Disney Brothers Cartoon Studio, and established itself as a leader in the American animation industry before diversifying into live-action film production, television, and theme parks.</description></item></channel></rss>

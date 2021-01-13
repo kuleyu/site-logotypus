@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>9 on Logotyp.us</title>
-    <link>https://logotyp.us/a-z/9/</link>
-    <description>Recent content in 9 on Logotyp.us</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 00:32:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://logotyp.us/a-z/9/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>99designs</title>
-      <link>https://logotyp.us/logo/99designs/</link>
-      <pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/99designs/</guid>
-      <description>99designs is a Melbourne, Australia, based company that operates a freelancer platform for connecting graphic designers and clients. The company was founded in 2008, and has a United States office in Oakland, California.
-  Source About 99designs We’re 99designs, the global creative platform that makes it easy for clients and designers to work together online. Since 2008, our freelance community has brought more than one million creative projects to life for thousands of genius entrepreneurs, savvy business owners, and brands with big ideas.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>9 on Logotyp.us</title><link>https://logotyp.us/a-z/9/</link><description>Recent content in 9 on Logotyp.us</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Nov 2020 00:32:00 +0000</lastBuildDate><atom:link href="https://logotyp.us/a-z/9/index.xml" rel="self" type="application/rss+xml"/><item><title>99designs</title><link>https://logotyp.us/logo/99designs/</link><pubDate>Wed, 11 Nov 2020 00:32:00 +0000</pubDate><guid>https://logotyp.us/logo/99designs/</guid><description>99designs is a Melbourne, Australia, based company that operates a freelancer platform for connecting graphic designers and clients. The company was founded in 2008, and has a United States office in Oakland, California.
+Source About 99designs We’re 99designs, the global creative platform that makes it easy for clients and designers to work together online. Since 2008, our freelance community has brought more than one million creative projects to life for thousands of genius entrepreneurs, savvy business owners, and brands with big ideas.</description></item></channel></rss>

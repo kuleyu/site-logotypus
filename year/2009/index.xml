@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>2009 on Logotyp.us</title>
-    <link>https://logotyp.us/year/2009/</link>
-    <description>Recent content in 2009 on Logotyp.us</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 11 Sep 2019 00:32:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://logotyp.us/year/2009/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Marathon Petroleum</title>
-      <link>https://logotyp.us/logo/marathon-petroleum/</link>
-      <pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate>
-      
-      <guid>https://logotyp.us/logo/marathon-petroleum/</guid>
-      <description> Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.
-  Source </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2009 on Logotyp.us</title><link>https://logotyp.us/year/2009/</link><description>Recent content in 2009 on Logotyp.us</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Sep 2019 00:32:00 +0000</lastBuildDate><atom:link href="https://logotyp.us/year/2009/index.xml" rel="self" type="application/rss+xml"/><item><title>Marathon Petroleum</title><link>https://logotyp.us/logo/marathon-petroleum/</link><pubDate>Wed, 11 Sep 2019 00:32:00 +0000</pubDate><guid>https://logotyp.us/logo/marathon-petroleum/</guid><description> Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.
+Source</description></item></channel></rss>
