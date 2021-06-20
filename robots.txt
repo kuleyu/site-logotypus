@@ -32,5 +32,4 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Disallow: /js/
-Disallow: /fikes/
 Sitemap: https://logotyp.us/sitemap.xml
