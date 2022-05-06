@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 560 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.816185,0,0,0.816185,99.0555,140.814)">
+        <g id="g2986" transform="matrix(1,0,0,1,-62.1588,-294.029)">
+            <path id="path2988" d="M84.249,366.542C84.249,331.344 112.784,302.809 147.982,302.809C159.091,302.809 169.532,305.657 178.623,310.651C166.494,301.068 151.185,295.334 134.526,295.334C95.198,295.334 63.316,327.214 63.316,366.543C63.316,405.872 95.198,437.756 134.526,437.756C151.184,437.756 166.494,432.02 178.623,422.436C169.528,427.43 159.092,430.282 147.982,430.282C112.784,430.281 84.249,401.743 84.249,366.542Z" style="fill:rgb(62,137,211);fill-rule:nonzero;"/>
+        </g>
+        <g id="path2992" transform="matrix(1,0,0,1,-62.1588,-294.03)">
+            <path d="M156.72,320.874C150.826,320.874 145.199,322.003 140.025,324.035C141.991,323.762 143.988,323.608 146.029,323.608C169.745,323.608 188.967,342.832 188.967,366.546C188.967,390.261 169.744,409.482 146.029,409.482C143.988,409.482 141.993,409.329 140.028,409.057C145.199,411.09 150.827,412.217 156.72,412.217C181.947,412.217 202.391,391.771 202.391,366.546C202.391,341.323 181.946,320.874 156.72,320.874Z" style="fill:rgb(82,175,0);fill-rule:nonzero;"/>
+        </g>
+        <g id="text2996" transform="matrix(1,0,0,1,164.215,95.4062)">
+            <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:66px;fill:rgb(82,175,0);">FOSWIKI</text>
+        </g>
+    </g>
+</svg>
